@@ -13,11 +13,11 @@ http://claude.ai/download
 ## Configurazione
 
 1. Copia il file di esempio `claude_desktop_config.json` nella directory corretta directori in base al tuo sistema:
-   - Linux: The file is located at `~/.config/Claude/claude_desktop_config.json`
-   - MacOS: The file is located at `~/Library/Application Support/Claude/claude_desktop_config.json`.
- This path is also mentioned as the location for the configuration file in the official quickstart guide.
-   - Windows: The file is located at `%APPDATA%\Claude\claude_desktop_config.json`.
- This path can be accessed by opening the Run dialog (Windows Key + R) and entering `%APPDATA%\Claude`
+  - Linux: Il file si trova in `~/.config/Claude/claude_desktop_config.json`
+  - MacOS: Il file si trova in `~/Library/Application Support/Claude/claude_desktop_config.json`.
+   Questo percorso è anche menzionato come posizione del file di configurazione nella guida rapida ufficiale.
+  - Windows: Il file si trova in `%APPDATA%\Claude\claude_desktop_config.json`.
+   Questo percorso può essere raggiunto aprendo la finestra di dialogo Esegui (Tasto Windows + R) e inserendo `%APPDATA%\Claude`.
 
 2. Modifica il file `claude_desktop_config.json` e sostituisci `{OPENAPI_TOKEN}` con un token generato tramite [openapi.com](https://openapi.com):
    ```json
