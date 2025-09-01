@@ -2,9 +2,9 @@
 
 This repository contains documentation on how to configure and test various MCP clients with the `mcp.openapi.com` server.
 
-## Available Clients
+## Tested Clients
 
-Currently, the following clients are available:
+The following clients are tested and fully compatible with mcp.openapi.com:
 
 - [Gemini CLI (English)](gemini-cli/README.md): Instructions for installing, configuring, and testing the Gemini CLI in English.
 - [Gemini CLI (Italiano)](gemini-cli/README_IT.md): Istruzioni per l'installazione, la configurazione e il test del Gemini CLI in italiano.
