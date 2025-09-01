@@ -1,4 +1,11 @@
 # Gemini CLI
+In questa documentazione sono raccolti degli esempi e dei rapidi consigli per configurare il server mcp.openapi.com
+all'interno di Gemini Cli.
+
+## Siti ufficiali e documentazione
+A questi indirizzi è presente la documentazione ufficiale ed approfondita che consigliamo di consultare.
+https://github.com/google-gemini/gemini-cli
+https://cloud.google.com/gemini/docs/codeassist/gemini-cli
 
 ## Installazione tramite npm
 
@@ -136,7 +143,9 @@ Tips for getting started:
 ╰─────────────────────────────────────────────────────────────────────────────────────────╯
 ~/Openapi/McpGeminiCli     no sandbox (see /docs)        gemini-2.5-pro (100% context left)
 ```
-Per le modalità di autenticazione consultare la documentazione.
+Per le modalità di autenticazione consultare la documentazione di Gemini Cli.
+https://github.com/google-gemini/gemini-cli
+https://cloud.google.com/gemini/docs/codeassist/gemini-cli
 
 Una volta ultimata l'autenticazione essa non verrà richiesta. 
 
