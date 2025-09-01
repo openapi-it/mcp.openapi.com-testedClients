@@ -4,12 +4,15 @@ all'interno di Gemini Cli.
 
 ## Siti ufficiali e documentazione
 A questi indirizzi è presente la documentazione ufficiale ed approfondita che consigliamo di consultare.
+
 https://github.com/google-gemini/gemini-cli
+
 https://cloud.google.com/gemini/docs/codeassist/gemini-cli
 
 ## Installazione tramite npm
 
-Gemini CLI è disponibile come pacchetto npm. Segui questi passaggi per installarlo su diversi sistemi operativi:
+Gemini CLI è disponibile come pacchetto npm. 
+Segui questi passaggi per installarlo su diversi sistemi operativi:
 
 ### Linux/macOS
 1. Assicurati di avere Node.js e npm installati sul tuo sistema. Puoi verificarlo eseguendo:
@@ -296,10 +299,16 @@ Viene richiesta l'autorizzazione ad eseguire la chiamata allo specifico tool MCP
  │    {"data":[],"count":27,"cost":0.027,"success":true,"message":"","error":null}            │
  ╰────────────────────────────────────────────────────────────────────────────────────────────╯
 ✦ Con la provincia impostata a "TR", ci sono 27 SPA con fatturato superiore a 10 milioni.
-
+```
+In questo esempio è stata automaticamente impostata la proprietà dryRun dell'api company.openapi.com che permette di avere gratuitamente un conteggio "count" ed un preventivo "cost" relativo ai criteri inseriti per una ipotetica estrazione del dataset.
+### Qualcosa di più complesso
+```bash
 ╭───────────────────────────────────────────────────────╮
 │  > fammi un report in formato html della openapi spa  │
 ╰───────────────────────────────────────────────────────╯
+ ```
+Avendo fornito solo il nome il sistema sceglie di effettuare una ricerca per prelevare la partita iva
+```bash
 
  ╭────────────────────────────────────────────────────────────────────────────────────────────╮
  │ ✔ get_company_IT_search (OpenapiMcpServer MCP Server) get_company_IT_search (OpenapiMcp…  │
@@ -308,6 +317,10 @@ Viene richiesta l'autorizzazione ad eseguire la chiamata allo specifico tool MCP
  │    S.P.A.","address":{"registeredOffice":{"town":"ROMA"}},"creationTimestamp":1            │
  │    624358855,"lastUpdateTimestamp":1755789554,"id":"60d1bfc731177b0a092cdfc1"}]            │
  ╰────────────────────────────────────────────────────────────────────────────────────────────╯
+  ```
+Con la partita iva interroga il servizio IT-advanced dell'api company.openapi.com
+```bash
+
  ╭────────────────────────────────────────────────────────────────────────────────────────────╮
  │ ✔ get_company_IT_advanced (OpenapiMcpServer MCP Server) get_company_IT_advanced (Openap…  │
  │                                                                                            │
@@ -353,6 +366,9 @@ Viene richiesta l'autorizzazione ad eseguire la chiamata allo specifico tool MCP
  │    S.R.L.","name":null,"surname":null,"taxCode":"16935371001","percentShare":10            │
  │    0}],"id":"60d1bfc731177b0a092cdfc1"}]                                                   │
  ╰────────────────────────────────────────────────────────────────────────────────────────────╯
+   ```
+Ottenuti i dati procede a generare un report in formato html che verrà scritto sul disco nella directory dalla quale è stato eseguito il comando "gemini"
+```bash
  ╭──────────────────────────────────────────────────────────────────────────────────╮
  │ ✔ WriteFile Writing to openapi_report.html                                      │
  │                                                                                  │

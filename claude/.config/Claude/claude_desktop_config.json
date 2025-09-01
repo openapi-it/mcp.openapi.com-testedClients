@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "openapi.com": {
+      "command": "npx",
+      "args": [
+        "mcp-remote",
+        "https://mcp.openapi.com/",
+        "--header",
+        "Authorization: Bearer {OPENAPI_TOKEN}"
+      ]
+    }
+  }
+}
