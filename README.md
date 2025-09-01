@@ -6,10 +6,25 @@ This repository contains documentation on how to configure and test various MCP 
 
 The following clients are tested and fully compatible with mcp.openapi.com:
 
+### Command Line Interfaces (CLI)
+![Gemini CLI Logo](https://upload.wikimedia.org/wikipedia/commons/d/d9/Google_Gemini_logo_2025.svg)
 - [Gemini CLI (English)](gemini-cli/README.md): Instructions for installing, configuring, and testing the Gemini CLI in English.
 - [Gemini CLI (Italiano)](gemini-cli/README_IT.md): Istruzioni per l'installazione, la configurazione e il test del Gemini CLI in italiano.
+
+### Desktop Applications
+![Claude Desktop Logo](https://upload.wikimedia.org/wikipedia/commons/8/8a/Claude_AI_logo.svg)
 - [Claude Desktop (English)](claude/README.md): Instructions for configuring and using Claude Desktop in English.
 - [Claude Desktop (Italiano)](claude/README_IT.md): Istruzioni per configurare e utilizzare Claude Desktop in italiano.
+
+### Chat Applications
+![OpenAI Chat Logo](https://upload.wikimedia.org/wikipedia/commons/a/af/OpenAI_logo_2025_%28wordmark%29.svg)
 - [OpenAI Chat (English)](openai-chat/README.md): Instructions for configuring and using OpenAI Chat in English.
 
 Each client has its own dedicated directory and corresponding `README.md` file, which is linked here.
+
+
+
+
+
+### Copyright
+* All logos and trademarks mentioned in this code are the property of their respective owners.
