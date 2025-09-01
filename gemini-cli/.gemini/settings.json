@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "OpenapiMcpServer": {
+      "httpUrl": "https://mcp.openapi.com",
+      "headers": {
+        "Authorization": "Bearer {OPENAPI_TOKEN}"
+      }
+    }
+  }
+}
