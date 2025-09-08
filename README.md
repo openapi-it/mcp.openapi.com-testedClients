@@ -25,7 +25,11 @@ Each client has its own dedicated directory and corresponding `README.md` file, 
 
 - [OpenAI Chat (English)](openai-chat/README.md): Instructions for configuring and using OpenAI Chat in English.
 
+## All the compatible clients
 
+mcp.openapi.com uses tools feature of the mcp standard and you can find a complete list of the compatible clients at this address of the main project page:
+
+`https://modelcontextprotocol.io/clients`
 
 
 
