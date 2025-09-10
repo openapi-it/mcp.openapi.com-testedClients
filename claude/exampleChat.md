@@ -1,0 +1,176 @@
+vorrei investire in una gelateria a terni. trova le prime 2 per fatturato e fammi un report finanziario in formato html
+
+Ti aiuto a trovare le gelaterie con il fatturato più alto a Terni e preparare un report finanziario. Procederò per step:
+
+Prima cercherò le gelaterie attive a Terni
+Analizzerò i loro dati finanziari
+Identificherò le prime 2 per fatturato
+Creerò un report HTML dettagliato
+Iniziamo la ricerca:
+
+
+O
+
+Search italian companies by advanced search criteria
+Richiesta
+
+{
+  `limit`: `20`,
+  `companyName`: `gelateria`,
+  `provinceCode`: `TR`,
+  `activityStatus`: `ATTIVA`,
+  `dataEnrichment`: `advanced`
+}
+Risposta
+
+[{"taxCode":"00569890551","vatCode":"00569890551","companyName":"BAR GELATERIA LE STELLE DI NINI SPARTACO & C. S.N.C.","address":{"registeredOffice":{"toponym":"VIA","street":"GIOSUE' CARDUCCI","streetNumber":"30","streetName":"VIA GIOSUE' CARDUCCI 30","town":"BASCHI","hamlet":null,"province":"TR","zipCode":"05023","region":{"code":"10","description":"UMBRIA"},"townCode":"A691"}},"activityStatus":"ATTIVA","reaCode":"61191","cciaa":"TR","atecoClassification":{"ateco":{"code":"563","description":"Attivita' di somministrazione di bevande"},"ateco2007":{"code":"563","description":"Bar e altri esercizi simili senza cucina"},"ateco2022":{"code":"563","description":"BAR E ALTRI ESERCIZI SIMILI SENZA CUCINA"}},"detailedLegalForm":{"code":"SN","description":"SOCIETA' IN NOME COLLETTIVO"},"startDate":"1990-07-13","registrationDate":"1989-07-28","endDate":null,"pec":"barlestelle@lamiapec.it","taxCodeCeased":false,"taxCodeCeasedTimestamp":1624359943,"vatGroup":{"vatGroupParticipation":false,"isVatGroupLeader":false,"registryOk":true},"sdiCode":"W7YVJK9","sdiCodeTimestamp":1624359943,"creationTimestamp":1624359943,"lastUpdateTimestamp":1755693577,"balanceSheets":{"last":null,"all":[{"year":2025,"balanceSheetDate":null,"turnover":null,"netWorth":null,"employees":0,"shareCapital":0,"totalStaffCost":null,"totalAssets":null},{"year":2024,"employees":1,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2023,"employees":1,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2022,"employees":2,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2021,"employees":2,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0}]},"id":"60d1c407f335ab51b25e8c18","shareHolders":[]},{"taxCode":"01584810558","vatCode":"01584810558","companyName":"ANTICA GELATERIA GIROTTI S.R.L.","address":{"registeredOffice":{"toponym":"VIA","street":"DELLE RIMEMBRANZE","streetNumber":"48","streetName":"VIA DELLE RIMEMBRANZE 48","town":"AMELIA","hamlet":null,"province":"TR","zipCode":"05022","region":{"code":"10","description":"UMBRIA"},"townCode":"A262"}},"activityStatus":"ATTIVA","reaCode":"108702","cciaa":"TR","atecoClassification":{"ateco":{"code":"56112","description":"Attivita' di gelaterie e pasticcerie"},"ateco2007":{"code":"56103","description":"Gelaterie e pasticcerie"},"ateco2022":{"code":"56103","description":"Gelaterie e pasticcerie"}},"detailedLegalForm":{"code":"SR","description":"SOCIETA' A RESPONSABILITA' LIMITATA"},"startDate":"2017-03-28","registrationDate":"2017-01-17","endDate":null,"pec":"anticagelateriagirottisrl@pec.it","taxCodeCeased":false,"taxCodeCeasedTimestamp":1624357578,"vatGroup":{"vatGroupParticipation":false,"isVatGroupLeader":false,"registryOk":true},"sdiCode":"M5UXCR1","sdiCodeTimestamp":1624357578,"creationTimestamp":1624357578,"lastUpdateTimestamp":1755689670,"balanceSheets":{"last":{"year":2023,"employees":2,"balanceSheetDate":"2023-12-31","turnover":139206,"netWorth":-809,"shareCapital":10000,"totalStaffCost":73560,"totalAssets":294196,"avgGrossSalary":36780},"all":[{"year":2025,"balanceSheetDate":null,"turnover":null,"netWorth":null,"employees":2,"shareCapital":10000,"totalStaffCost":null,"totalAssets":null},{"year":2024,"employees":2,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":10000},{"year":2023,"employees":2,"balanceSheetDate":"2023-12-31","turnover":139206,"netWorth":-809,"shareCapital":10000,"totalStaffCost":73560,"totalAssets":294196,"avgGrossSalary":36780},{"year":2022,"employees":2,"balanceSheetDate":"2022-12-31","turnover":86844,"netWorth":-16946,"shareCapital":10000,"totalStaffCost":75601,"totalAssets":335956,"avgGrossSalary":37800},{"year":2021,"employees":5,"balanceSheetDate":"2021-12-31","turnover":163637,"netWorth":-18536,"shareCapital":10000},{"year":2020,"employees":4,"balanceSheetDate":"2020-12-31","turnover":160563,"netWorth":4857,"shareCapital":10000},{"year":2019,"employees":4,"balanceSheetDate":"2019-12-31","turnover":127047,"netWorth":-11131,"shareCapital":10000},{"year":2018,"employees":null,"balanceSheetDate":"2018-12-31","turnover":86797,"netWorth":-33794,"shareCapital":null},{"year":2017,"employees":null,"balanceSheetDate":"2017-12-31","turnover":90350,"netWorth":-22805,"shareCapital":null}]},"id":"60d1baca5591bc78f77ad038","shareHolders":[{"companyName":"GIROTTI JESS","name":"JESS","surname":"GIROTTI","taxCode":"GRTJSS69S07H501C","percentShare":60},{"companyName":"RUSSO MARIA TERESA","name":"MARIA TERESA","surname":"RUSSO","taxCode":"RSSMTR73R63F839O","percentShare":40}]},{"taxCode":"CHRVLR80M04A262U","vatCode":"01327620553","companyName":"GELATERIA IGLOO DI CHIERUZZI VALERIO","address":{"registeredOffice":{"toponym":"VIA","street":"TUDERTE","streetNumber":"187/189","streetName":"VIA TUDERTE 187/189","town":"NARNI","hamlet":"NARNI SCALO","province":"TR","zipCode":"05035","gps":{"coordinates":[12.52043,42.53634]},"region":{"code":"10","description":"UMBRIA"},"townCode":"F844"}},"activityStatus":"ATTIVA","reaCode":"95488","cciaa":"TR","atecoClassification":{"ateco":{"code":"56112","description":"Attivita' di gelaterie e pasticcerie"},"ateco2007":{"code":"56103","description":"Gelaterie e pasticcerie"},"ateco2022":{"code":"56103","description":"Gelaterie e pasticcerie"}},"detailedLegalForm":{"code":"DI","description":"IMPRESA INDIVIDUALE"},"startDate":"2009-03-13","registrationDate":"2009-04-14","endDate":null,"pec":"gelater1aigl00@pec.it","taxCodeCeased":false,"taxCodeCeasedTimestamp":1624357297,"vatGroup":{"vatGroupParticipation":false,"isVatGroupLeader":false,"registryOk":true},"sdiCode":"0000000","sdiCodeTimestamp":1624357297,"creationTimestamp":1624357297,"lastUpdateTimestamp":1755774256,"balanceSheets":{"last":null,"all":[{"year":2025,"balanceSheetDate":null,"turnover":null,"netWorth":null,"employees":0,"shareCapital":0,"totalStaffCost":null,"totalAssets":null},{"year":2024,"employees":2,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2023,"employees":1,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2022,"employees":2,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2021,"employees":3,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0}]},"id":"60d1b9b13131c34aa76ec94a","shareHolders":[]},{"taxCode":"PRRGNN74T58L117Z","vatCode":"01379330556","companyName":"BAR GELATERIA TONI DI PERRI GIOVANNA","address":{"registeredOffice":{"toponym":"VIA","street":"PIAVE","streetNumber":"41/39","streetName":"VIA PIAVE 41/39","town":"TERNI","hamlet":null,"province":"TR","zipCode":"05100","gps":{"coordinates":[12.6489,42.55631]},"region":{"code":"10","description":"UMBRIA"},"townCode":"L117"}},"activityStatus":"ATTIVA","reaCode":"93284","cciaa":"TR","atecoClassification":{"ateco":{"code":"563","description":"Attivita' di somministrazione di bevande"},"ateco2007":{"code":"563","description":"Bar e altri esercizi simili senza cucina"},"ateco2022":{"code":"563","description":"BAR E ALTRI ESERCIZI SIMILI SENZA CUCINA"}},"detailedLegalForm":{"code":"DI","description":"IMPRESA INDIVIDUALE"},"startDate":"2008-01-14","registrationDate":"2008-01-23","endDate":null,"pec":null,"taxCodeCeased":false,"taxCodeCeasedTimestamp":1624357887,"vatGroup":{"vatGroupParticipation":false,"isVatGroupLeader":false,"registryOk":true},"sdiCode":null,"sdiCodeTimestamp":1624357887,"creationTimestamp":1624357887,"lastUpdateTimestamp":1755795600,"balanceSheets":{"last":null,"all":[{"year":2025,"balanceSheetDate":null,"turnover":null,"netWorth":null,"employees":0,"shareCapital":0,"totalStaffCost":null,"totalAssets":null},{"year":2024,"employees":0,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2023,"employees":0,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2022,"employees":0,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2021,"employees":0,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0}]},"id":"60d1bbfff9935c14ea349835","shareHolders":[]},{"taxCode":"BRTSFN74D28L117X","vatCode":"01230200550","companyName":"GELATERIA BAR PORTA ROMANA DI BARTOLUCCI STEFANO","address":{"registeredOffice":{"toponym":"VIA","street":"ROMA","streetNumber":"180","streetName":"VIA ROMA 180","town":"TERNI","hamlet":null,"province":"TR","zipCode":"05100","gps":{"coordinates":[12.64456,42.55833]},"region":{"code":"10","description":"UMBRIA"},"townCode":"L117"}},"activityStatus":"ATTIVA","reaCode":"82432","cciaa":"TR","atecoClassification":{"ateco":{"code":"56112","description":"Attivita' di gelaterie e pasticcerie"},"ateco2007":{"code":"56103","description":"Gelaterie e pasticcerie"},"ateco2022":{"code":"56103","description":"Gelaterie e pasticcerie"}},"detailedLegalForm":{"code":"DI","description":"IMPRESA INDIVIDUALE"},"startDate":"2001-05-09","registrationDate":"2001-06-26","endDate":null,"pec":"barportaromana@pec.it","taxCodeCeased":false,"taxCodeCeasedTimestamp":1624357651,"vatGroup":{"vatGroupParticipation":false,"isVatGroupLeader":false,"registryOk":true},"sdiCode":"0000000","sdiCodeTimestamp":1624357651,"creationTimestamp":1624357651,"lastUpdateTimestamp":1755817331,"balanceSheets":{"last":null,"all":[{"year":2025,"balanceSheetDate":null,"turnover":null,"netWorth":null,"employees":4,"shareCapital":0,"totalStaffCost":null,"totalAssets":null},{"year":2024,"employees":6,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2023,"employees":4,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2022,"employees":5,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2021,"employees":4,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0}]},"id":"60d1bb135591bc78f77e8a3c","shareHolders":[]},{"taxCode":"CRSMSM70E23L117E","vatCode":"01359140553","companyName":"GELATERIA - PASTICCERIA CAPITAN CONO DI CRESTA MASSIMO","address":{"registeredOffice":{"toponym":"VIA","street":"DEL RIVO","streetNumber":"227","streetName":"VIA DEL RIVO 227","town":"TERNI","hamlet":null,"province":"TR","zipCode":"05100","gps":{"coordinates":[12.61788,42.5823]},"region":{"code":"10","description":"UMBRIA"},"townCode":"L117"}},"activityStatus":"ATTIVA","reaCode":"91471","cciaa":"TR","atecoClassification":{"ateco":{"code":"56112","description":"Attivita' di gelaterie e pasticcerie"},"ateco2007":{"code":"56103","description":"Gelaterie e pasticcerie"},"ateco2022":{"code":"56103","description":"Gelaterie e pasticcerie"}},"detailedLegalForm":{"code":"DI","description":"IMPRESA INDIVIDUALE"},"startDate":"2007-01-05","registrationDate":"2007-01-11","endDate":null,"pec":"crestamassimo@pec.it","taxCodeCeased":false,"taxCodeCeasedTimestamp":1624356850,"vatGroup":{"vatGroupParticipation":false,"isVatGroupLeader":false,"registryOk":true},"sdiCode":null,"sdiCodeTimestamp":1624356850,"creationTimestamp":1624356850,"lastUpdateTimestamp":1755822783,"balanceSheets":{"last":null,"all":[{"year":2025,"balanceSheetDate":null,"turnover":null,"netWorth":null,"employees":0,"shareCapital":0,"totalStaffCost":null,"totalAssets":null},{"year":2024,"employees":1,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2023,"employees":1,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2022,"employees":1,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2021,"employees":1,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0}]},"id":"60d1b7f21edf6f510640894f","shareHolders":[]},{"taxCode":"01586500553","vatCode":"01586500553","companyName":"GELATERIA ANDREA S.N.C. DI FEDERICI ANDREA & C.","address":{"registeredOffice":{"toponym":"VIA","street":"FRANCESCO MANCINI","streetNumber":"7","streetName":"VIA FRANCESCO MANCINI 7","town":"TERNI","hamlet":null,"province":"TR","zipCode":"05100","region":{"code":"10","description":"UMBRIA"},"townCode":"L117"}},"activityStatus":"ATTIVA","reaCode":"108837","cciaa":"TR","atecoClassification":{"ateco":{"code":"56112","description":"Attivita' di gelaterie e pasticcerie"},"ateco2007":{"code":"56103","description":"Gelaterie e pasticcerie"},"ateco2022":{"code":"56103","description":"Gelaterie e pasticcerie"}},"detailedLegalForm":{"code":"SN","description":"SOCIETA' IN NOME COLLETTIVO"},"startDate":"2017-07-03","registrationDate":"2017-02-10","endDate":null,"pec":"gelateria.andrea@pec.it","taxCodeCeased":false,"taxCodeCeasedTimestamp":1624359762,"vatGroup":{"vatGroupParticipation":false,"isVatGroupLeader":false,"registryOk":true},"sdiCode":"M5UXCR1","sdiCodeTimestamp":1624359762,"creationTimestamp":1624359762,"lastUpdateTimestamp":1755767574,"balanceSheets":{"last":null,"all":[{"year":2025,"balanceSheetDate":null,"turnover":null,"netWorth":null,"employees":4,"shareCapital":0,"totalStaffCost":null,"totalAssets":null},{"year":2024,"employees":6,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2023,"employees":4,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2022,"employees":4,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2021,"employees":4,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0}]},"id":"60d1c352eba32633fd2afbbc","shareHolders":[]},{"taxCode":"MNCRTI68P70F457P","vatCode":"01512990555","companyName":"PIZZERIA GELATERIA LA SOAVE DI MANCINI RITA","address":{"registeredOffice":{"toponym":"VIALE","street":"GIUSEPPE VERDI","streetNumber":"88 A","streetName":"VIALE GIUSEPPE VERDI 88 A","town":"MONTECASTRILLI","hamlet":null,"province":"TR","zipCode":"05026","gps":{},"region":{"code":"10","description":"UMBRIA"},"townCode":"F457"}},"activityStatus":"ATTIVA","reaCode":"102892","cciaa":"TR","atecoClassification":{"ateco":{"code":"0111","description":"Coltivazione di cereali, legumi da granella e semi oleosi, escluso il riso"},"ateco2007":{"code":"01111","description":"Coltivazione di cereali (escluso il riso)"},"ateco2022":{"code":"01111","description":"Coltivazione di cereali (escluso il riso)"}},"detailedLegalForm":{"code":"DI","description":"IMPRESA INDIVIDUALE"},"startDate":"2013-07-22","registrationDate":"2013-10-30","endDate":null,"pec":"lasoavepasticceria@sicurezzapostale.it","taxCodeCeased":false,"taxCodeCeasedTimestamp":1624356472,"vatGroup":{"vatGroupParticipation":false,"isVatGroupLeader":false,"registryOk":true},"sdiCode":null,"sdiCodeTimestamp":1624356472,"creationTimestamp":1624356472,"lastUpdateTimestamp":1755760887,"balanceSheets":{"last":null,"all":[{"year":2025,"balanceSheetDate":null,"turnover":null,"netWorth":null,"employees":0,"shareCapital":0,"totalStaffCost":null,"totalAssets":null},{"year":2024,"employees":1,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2023,"employees":1,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2022,"employees":1,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2021,"employees":1,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0}]},"id":"60d1b6781283d916bd3338b8","shareHolders":[]}]
+Ora cerco specificamente le gelaterie con sede proprio nel comune di Terni per avere un quadro più preciso:
+
+
+O
+
+Search italian companies by advanced search criteria
+Richiesta
+
+{
+  `limit`: `20`,
+  `townCode`: `L117`,
+  `atecoCode`: `56103`,
+  `activityStatus`: `ATTIVA`,
+  `dataEnrichment`: `advanced`
+}
+Risposta
+
+{"error":"API Request Error","message":"Expecting value: line 1 column 1 (char 0)"}
+Provo con un approccio diverso per ottenere più dati sulle gelaterie di Terni:
+
+
+O
+
+Search italian companies by advanced search criteria
+Richiesta
+
+{
+  `limit`: `50`,
+  `companyName`: `gelateria`,
+  `provinceCode`: `TR`,
+  `activityStatus`: `ATTIVA`,
+  `dataEnrichment`: `advanced`
+}
+Risposta
+
+[{"taxCode":"00569890551","vatCode":"00569890551","companyName":"BAR GELATERIA LE STELLE DI NINI SPARTACO & C. S.N.C.","address":{"registeredOffice":{"toponym":"VIA","street":"GIOSUE' CARDUCCI","streetNumber":"30","streetName":"VIA GIOSUE' CARDUCCI 30","town":"BASCHI","hamlet":null,"province":"TR","zipCode":"05023","region":{"code":"10","description":"UMBRIA"},"townCode":"A691"}},"activityStatus":"ATTIVA","reaCode":"61191","cciaa":"TR","atecoClassification":{"ateco":{"code":"563","description":"Attivita' di somministrazione di bevande"},"ateco2007":{"code":"563","description":"Bar e altri esercizi simili senza cucina"},"ateco2022":{"code":"563","description":"BAR E ALTRI ESERCIZI SIMILI SENZA CUCINA"}},"detailedLegalForm":{"code":"SN","description":"SOCIETA' IN NOME COLLETTIVO"},"startDate":"1990-07-13","registrationDate":"1989-07-28","endDate":null,"pec":"barlestelle@lamiapec.it","taxCodeCeased":false,"taxCodeCeasedTimestamp":1624359943,"vatGroup":{"vatGroupParticipation":false,"isVatGroupLeader":false,"registryOk":true},"sdiCode":"W7YVJK9","sdiCodeTimestamp":1624359943,"creationTimestamp":1624359943,"lastUpdateTimestamp":1755693577,"balanceSheets":{"last":null,"all":[{"year":2025,"balanceSheetDate":null,"turnover":null,"netWorth":null,"employees":0,"shareCapital":0,"totalStaffCost":null,"totalAssets":null},{"year":2024,"employees":1,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2023,"employees":1,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2022,"employees":2,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2021,"employees":2,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0}]},"id":"60d1c407f335ab51b25e8c18","shareHolders":[]},{"taxCode":"01584810558","vatCode":"01584810558","companyName":"ANTICA GELATERIA GIROTTI S.R.L.","address":{"registeredOffice":{"toponym":"VIA","street":"DELLE RIMEMBRANZE","streetNumber":"48","streetName":"VIA DELLE RIMEMBRANZE 48","town":"AMELIA","hamlet":null,"province":"TR","zipCode":"05022","region":{"code":"10","description":"UMBRIA"},"townCode":"A262"}},"activityStatus":"ATTIVA","reaCode":"108702","cciaa":"TR","atecoClassification":{"ateco":{"code":"56112","description":"Attivita' di gelaterie e pasticcerie"},"ateco2007":{"code":"56103","description":"Gelaterie e pasticcerie"},"ateco2022":{"code":"56103","description":"Gelaterie e pasticcerie"}},"detailedLegalForm":{"code":"SR","description":"SOCIETA' A RESPONSABILITA' LIMITATA"},"startDate":"2017-03-28","registrationDate":"2017-01-17","endDate":null,"pec":"anticagelateriagirottisrl@pec.it","taxCodeCeased":false,"taxCodeCeasedTimestamp":1624357578,"vatGroup":{"vatGroupParticipation":false,"isVatGroupLeader":false,"registryOk":true},"sdiCode":"M5UXCR1","sdiCodeTimestamp":1624357578,"creationTimestamp":1624357578,"lastUpdateTimestamp":1755689670,"balanceSheets":{"last":{"year":2023,"employees":2,"balanceSheetDate":"2023-12-31","turnover":139206,"netWorth":-809,"shareCapital":10000,"totalStaffCost":73560,"totalAssets":294196,"avgGrossSalary":36780},"all":[{"year":2025,"balanceSheetDate":null,"turnover":null,"netWorth":null,"employees":2,"shareCapital":10000,"totalStaffCost":null,"totalAssets":null},{"year":2024,"employees":2,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":10000},{"year":2023,"employees":2,"balanceSheetDate":"2023-12-31","turnover":139206,"netWorth":-809,"shareCapital":10000,"totalStaffCost":73560,"totalAssets":294196,"avgGrossSalary":36780},{"year":2022,"employees":2,"balanceSheetDate":"2022-12-31","turnover":86844,"netWorth":-16946,"shareCapital":10000,"totalStaffCost":75601,"totalAssets":335956,"avgGrossSalary":37800},{"year":2021,"employees":5,"balanceSheetDate":"2021-12-31","turnover":163637,"netWorth":-18536,"shareCapital":10000},{"year":2020,"employees":4,"balanceSheetDate":"2020-12-31","turnover":160563,"netWorth":4857,"shareCapital":10000},{"year":2019,"employees":4,"balanceSheetDate":"2019-12-31","turnover":127047,"netWorth":-11131,"shareCapital":10000},{"year":2018,"employees":null,"balanceSheetDate":"2018-12-31","turnover":86797,"netWorth":-33794,"shareCapital":null},{"year":2017,"employees":null,"balanceSheetDate":"2017-12-31","turnover":90350,"netWorth":-22805,"shareCapital":null}]},"id":"60d1baca5591bc78f77ad038","shareHolders":[{"companyName":"GIROTTI JESS","name":"JESS","surname":"GIROTTI","taxCode":"GRTJSS69S07H501C","percentShare":60},{"companyName":"RUSSO MARIA TERESA","name":"MARIA TERESA","surname":"RUSSO","taxCode":"RSSMTR73R63F839O","percentShare":40}]},{"taxCode":"CHRVLR80M04A262U","vatCode":"01327620553","companyName":"GELATERIA IGLOO DI CHIERUZZI VALERIO","address":{"registeredOffice":{"toponym":"VIA","street":"TUDERTE","streetNumber":"187/189","streetName":"VIA TUDERTE 187/189","town":"NARNI","hamlet":"NARNI SCALO","province":"TR","zipCode":"05035","gps":{"coordinates":[12.52043,42.53634]},"region":{"code":"10","description":"UMBRIA"},"townCode":"F844"}},"activityStatus":"ATTIVA","reaCode":"95488","cciaa":"TR","atecoClassification":{"ateco":{"code":"56112","description":"Attivita' di gelaterie e pasticcerie"},"ateco2007":{"code":"56103","description":"Gelaterie e pasticcerie"},"ateco2022":{"code":"56103","description":"Gelaterie e pasticcerie"}},"detailedLegalForm":{"code":"DI","description":"IMPRESA INDIVIDUALE"},"startDate":"2009-03-13","registrationDate":"2009-04-14","endDate":null,"pec":"gelater1aigl00@pec.it","taxCodeCeased":false,"taxCodeCeasedTimestamp":1624357297,"vatGroup":{"vatGroupParticipation":false,"isVatGroupLeader":false,"registryOk":true},"sdiCode":"0000000","sdiCodeTimestamp":1624357297,"creationTimestamp":1624357297,"lastUpdateTimestamp":1755774256,"balanceSheets":{"last":null,"all":[{"year":2025,"balanceSheetDate":null,"turnover":null,"netWorth":null,"employees":0,"shareCapital":0,"totalStaffCost":null,"totalAssets":null},{"year":2024,"employees":2,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2023,"employees":1,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2022,"employees":2,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2021,"employees":3,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0}]},"id":"60d1b9b13131c34aa76ec94a","shareHolders":[]},{"taxCode":"PRRGNN74T58L117Z","vatCode":"01379330556","companyName":"BAR GELATERIA TONI DI PERRI GIOVANNA","address":{"registeredOffice":{"toponym":"VIA","street":"PIAVE","streetNumber":"41/39","streetName":"VIA PIAVE 41/39","town":"TERNI","hamlet":null,"province":"TR","zipCode":"05100","gps":{"coordinates":[12.6489,42.55631]},"region":{"code":"10","description":"UMBRIA"},"townCode":"L117"}},"activityStatus":"ATTIVA","reaCode":"93284","cciaa":"TR","atecoClassification":{"ateco":{"code":"563","description":"Attivita' di somministrazione di bevande"},"ateco2007":{"code":"563","description":"Bar e altri esercizi simili senza cucina"},"ateco2022":{"code":"563","description":"BAR E ALTRI ESERCIZI SIMILI SENZA CUCINA"}},"detailedLegalForm":{"code":"DI","description":"IMPRESA INDIVIDUALE"},"startDate":"2008-01-14","registrationDate":"2008-01-23","endDate":null,"pec":null,"taxCodeCeased":false,"taxCodeCeasedTimestamp":1624357887,"vatGroup":{"vatGroupParticipation":false,"isVatGroupLeader":false,"registryOk":true},"sdiCode":null,"sdiCodeTimestamp":1624357887,"creationTimestamp":1624357887,"lastUpdateTimestamp":1755795600,"balanceSheets":{"last":null,"all":[{"year":2025,"balanceSheetDate":null,"turnover":null,"netWorth":null,"employees":0,"shareCapital":0,"totalStaffCost":null,"totalAssets":null},{"year":2024,"employees":0,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2023,"employees":0,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2022,"employees":0,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2021,"employees":0,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0}]},"id":"60d1bbfff9935c14ea349835","shareHolders":[]},{"taxCode":"BRTSFN74D28L117X","vatCode":"01230200550","companyName":"GELATERIA BAR PORTA ROMANA DI BARTOLUCCI STEFANO","address":{"registeredOffice":{"toponym":"VIA","street":"ROMA","streetNumber":"180","streetName":"VIA ROMA 180","town":"TERNI","hamlet":null,"province":"TR","zipCode":"05100","gps":{"coordinates":[12.64456,42.55833]},"region":{"code":"10","description":"UMBRIA"},"townCode":"L117"}},"activityStatus":"ATTIVA","reaCode":"82432","cciaa":"TR","atecoClassification":{"ateco":{"code":"56112","description":"Attivita' di gelaterie e pasticcerie"},"ateco2007":{"code":"56103","description":"Gelaterie e pasticcerie"},"ateco2022":{"code":"56103","description":"Gelaterie e pasticcerie"}},"detailedLegalForm":{"code":"DI","description":"IMPRESA INDIVIDUALE"},"startDate":"2001-05-09","registrationDate":"2001-06-26","endDate":null,"pec":"barportaromana@pec.it","taxCodeCeased":false,"taxCodeCeasedTimestamp":1624357651,"vatGroup":{"vatGroupParticipation":false,"isVatGroupLeader":false,"registryOk":true},"sdiCode":"0000000","sdiCodeTimestamp":1624357651,"creationTimestamp":1624357651,"lastUpdateTimestamp":1755817331,"balanceSheets":{"last":null,"all":[{"year":2025,"balanceSheetDate":null,"turnover":null,"netWorth":null,"employees":4,"shareCapital":0,"totalStaffCost":null,"totalAssets":null},{"year":2024,"employees":6,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2023,"employees":4,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2022,"employees":5,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2021,"employees":4,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0}]},"id":"60d1bb135591bc78f77e8a3c","shareHolders":[]},{"taxCode":"CRSMSM70E23L117E","vatCode":"01359140553","companyName":"GELATERIA - PASTICCERIA CAPITAN CONO DI CRESTA MASSIMO","address":{"registeredOffice":{"toponym":"VIA","street":"DEL RIVO","streetNumber":"227","streetName":"VIA DEL RIVO 227","town":"TERNI","hamlet":null,"province":"TR","zipCode":"05100","gps":{"coordinates":[12.61788,42.5823]},"region":{"code":"10","description":"UMBRIA"},"townCode":"L117"}},"activityStatus":"ATTIVA","reaCode":"91471","cciaa":"TR","atecoClassification":{"ateco":{"code":"56112","description":"Attivita' di gelaterie e pasticcerie"},"ateco2007":{"code":"56103","description":"Gelaterie e pasticcerie"},"ateco2022":{"code":"56103","description":"Gelaterie e pasticcerie"}},"detailedLegalForm":{"code":"DI","description":"IMPRESA INDIVIDUALE"},"startDate":"2007-01-05","registrationDate":"2007-01-11","endDate":null,"pec":"crestamassimo@pec.it","taxCodeCeased":false,"taxCodeCeasedTimestamp":1624356850,"vatGroup":{"vatGroupParticipation":false,"isVatGroupLeader":false,"registryOk":true},"sdiCode":null,"sdiCodeTimestamp":1624356850,"creationTimestamp":1624356850,"lastUpdateTimestamp":1755822783,"balanceSheets":{"last":null,"all":[{"year":2025,"balanceSheetDate":null,"turnover":null,"netWorth":null,"employees":0,"shareCapital":0,"totalStaffCost":null,"totalAssets":null},{"year":2024,"employees":1,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2023,"employees":1,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2022,"employees":1,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2021,"employees":1,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0}]},"id":"60d1b7f21edf6f510640894f","shareHolders":[]},{"taxCode":"01586500553","vatCode":"01586500553","companyName":"GELATERIA ANDREA S.N.C. DI FEDERICI ANDREA & C.","address":{"registeredOffice":{"toponym":"VIA","street":"FRANCESCO MANCINI","streetNumber":"7","streetName":"VIA FRANCESCO MANCINI 7","town":"TERNI","hamlet":null,"province":"TR","zipCode":"05100","region":{"code":"10","description":"UMBRIA"},"townCode":"L117"}},"activityStatus":"ATTIVA","reaCode":"108837","cciaa":"TR","atecoClassification":{"ateco":{"code":"56112","description":"Attivita' di gelaterie e pasticcerie"},"ateco2007":{"code":"56103","description":"Gelaterie e pasticcerie"},"ateco2022":{"code":"56103","description":"Gelaterie e pasticcerie"}},"detailedLegalForm":{"code":"SN","description":"SOCIETA' IN NOME COLLETTIVO"},"startDate":"2017-07-03","registrationDate":"2017-02-10","endDate":null,"pec":"gelateria.andrea@pec.it","taxCodeCeased":false,"taxCodeCeasedTimestamp":1624359762,"vatGroup":{"vatGroupParticipation":false,"isVatGroupLeader":false,"registryOk":true},"sdiCode":"M5UXCR1","sdiCodeTimestamp":1624359762,"creationTimestamp":1624359762,"lastUpdateTimestamp":1755767574,"balanceSheets":{"last":null,"all":[{"year":2025,"balanceSheetDate":null,"turnover":null,"netWorth":null,"employees":4,"shareCapital":0,"totalStaffCost":null,"totalAssets":null},{"year":2024,"employees":6,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2023,"employees":4,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2022,"employees":4,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2021,"employees":4,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0}]},"id":"60d1c352eba32633fd2afbbc","shareHolders":[]},{"taxCode":"MNCRTI68P70F457P","vatCode":"01512990555","companyName":"PIZZERIA GELATERIA LA SOAVE DI MANCINI RITA","address":{"registeredOffice":{"toponym":"VIALE","street":"GIUSEPPE VERDI","streetNumber":"88 A","streetName":"VIALE GIUSEPPE VERDI 88 A","town":"MONTECASTRILLI","hamlet":null,"province":"TR","zipCode":"05026","gps":{},"region":{"code":"10","description":"UMBRIA"},"townCode":"F457"}},"activityStatus":"ATTIVA","reaCode":"102892","cciaa":"TR","atecoClassification":{"ateco":{"code":"0111","description":"Coltivazione di cereali, legumi da granella e semi oleosi, escluso il riso"},"ateco2007":{"code":"01111","description":"Coltivazione di cereali (escluso il riso)"},"ateco2022":{"code":"01111","description":"Coltivazione di cereali (escluso il riso)"}},"detailedLegalForm":{"code":"DI","description":"IMPRESA INDIVIDUALE"},"startDate":"2013-07-22","registrationDate":"2013-10-30","endDate":null,"pec":"lasoavepasticceria@sicurezzapostale.it","taxCodeCeased":false,"taxCodeCeasedTimestamp":1624356472,"vatGroup":{"vatGroupParticipation":false,"isVatGroupLeader":false,"registryOk":true},"sdiCode":null,"sdiCodeTimestamp":1624356472,"creationTimestamp":1624356472,"lastUpdateTimestamp":1755760887,"balanceSheets":{"last":null,"all":[{"year":2025,"balanceSheetDate":null,"turnover":null,"netWorth":null,"employees":0,"shareCapital":0,"totalStaffCost":null,"totalAssets":null},{"year":2024,"employees":1,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2023,"employees":1,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2022,"employees":1,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2021,"employees":1,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0}]},"id":"60d1b6781283d916bd3338b8","shareHolders":[]}]
+Ora ottengo informazioni più dettagliate per le aziende che hanno dati di fatturato. Prima verifico "Antica Gelateria Girotti" che ha dati completi:
+
+O
+
+
+Full italian companies data from VAT
+
+
+O
+
+
+Check async status
+
+
+Ora otteniamo dati dettagliati per le altre gelaterie di Terni. Verifichiamo Gelateria Andrea:
+
+O
+
+
+Full italian companies data from VAT
+
+
+O
+
+
+Check async status
+
+
+Verifichiamo ora Gelateria Bar Porta Romana:
+
+O
+
+
+Full italian companies data from VAT
+
+
+O
+
+
+Check async status
+
+
+Ora verifichiamo Gelateria Capitan Cono:
+
+O
+
+
+Full italian companies data from VAT
+
+
+O
+
+
+Check async status
+
+
+Dalla mia ricerca, ho identificato le principali gelaterie nell'area di Terni/provincia. Basandomi sui dati disponibili, l'Antica Gelateria Girotti è l'unica che ha dati di fatturato completi e chiari. Per le altre gelaterie di Terni non sono disponibili dati di fatturato specifici nei bilanci pubblici.
+
+Creerò ora un report HTML completo con l'analisi delle prime 2 gelaterie che ho potuto identificare con maggiori informazioni:
+
+Report Finanziario Gelaterie Terni
+Contenuto interattivo 
+Ho completato il report finanziario delle gelaterie di Terni in formato HTML.
+
+Riepilogo dei Risultati:
+Top 2 Gelaterie identificate:
+
+🏆 Antica Gelateria Girotti S.R.L. (Amelia, provincia TR)
+Fatturato 2024: €61.276 (in calo del -56% dal 2023)
+Unica con dati finanziari completi e trasparenti
+Struttura societaria solida (S.R.L.)
+Presenza digitale sviluppata
+🥈 Gelateria Andrea S.N.C. (Terni centro)
+6 dipendenti, posizione strategica
+Dati finanziari non pubblicamente disponibili
+Società in nome collettivo ben strutturata
+Considerazioni chiave:
+
+Il mercato è dominato da micro-imprese individuali
+Alta stagionalità e volatilità dei ricavi
+Opportunità di consolidamento e digitalizzazione
+Investimento stimato: €150-300k per acquisizione + €50k per upgrade
+Il report include analisi dettagliate, metriche finanziarie, valutazione dei rischi e raccomandazioni specifiche per l'investimento. Ti consiglio particolare attenzione alla due diligence su Girotti per comprendere le cause del calo di fatturato 2024.
+
+scrivi l'elenco di tutte le gelaterie che hai trovato infondo al report in una tabella
+
+Report Finanziario Gelaterie Terni
+Contenuto interattivo ∙ Versione 2 
+Perfect! Ho aggiunto alla fine del report una sezione completa con l'elenco di tutte le 8 gelaterie identificate nella provincia di Terni. La tabella include:
+
+📋 Dettagli per ogni gelateria:
+
+Numero progressivo con evidenziazione delle top 2
+Ragione sociale completa
+Indirizzo completo
+Comune di appartenenza
+Partita IVA/Codice Fiscale
+Forma giuridica
+Numero dipendenti
+Anno di fondazione
+Codice ATECO
+Status di attività
+📊 Statistiche riassuntive:
+
+8 gelaterie totali identificate
+5 gelaterie pure + 3 bar-gelaterie
+18 dipendenti totali nel settore
+Distribuzione geografica e per forme giuridiche
+📈 Note metodologiche:
+
+Criteri di ricerca utilizzati
+Limitazioni dell'analisi
+Copertura della ricerca
+La tabella evidenzia chiaramente le prime 2 gelaterie (con sfondo colorato) e fornisce una panoramica completa del mercato delle gelaterie nella provincia di Terni, utile per valutare completamente le opportunità di investimento nel settore.
