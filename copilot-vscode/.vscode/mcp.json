@@ -1,0 +1,17 @@
+{
+  "inputs": [{
+    "type": "promptString",
+    "id": "OpenapiToken",
+    "description": "Insert a valid Openapi.com Token",
+    "password": true
+  }],
+  "servers": {
+    "openapi.com": {
+      "type": "http",
+      "url": "https://mcp.openapi.com/",
+      "headers": {
+        "Authorization": "Bearer ${input:OpenapiToken}"
+      }
+    }
+  }
+}

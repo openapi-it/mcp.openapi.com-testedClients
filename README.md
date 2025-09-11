@@ -1,4 +1,4 @@
-# MCP OpenAPI Tested Clients
+# MCP Openapi Tested Clients
 
 This repository contains documentation on how to configure and test various MCP clients with the `mcp.openapi.com` server.
 

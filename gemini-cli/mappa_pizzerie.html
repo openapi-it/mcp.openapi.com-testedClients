@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mappa delle Pizzerie di Terni</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+    <style>
+        #map { height: 600px; }
+        .legend {
+            line-height: 18px;
+            color: #555;
+        }
+        .legend i {
+            width: 18px;
+            height: 18px;
+            float: left;
+            margin-right: 8px;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+
+<div id="map"></div>
+
+<script>
+    var map = L.map('map').setView([42.5641417, 12.6405466], 13);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    var pizzerias = [
+        {
+            "name": "PIZZERIA LA REGINA DI LORI GIANMARCO",
+            "lat": 42.5185079,
+            "lng": 12.5669114,
+            "turnover": 0
+        },
+        {
+            "name": "PIZZERIA PASTICCERIA EUROPA S.R.L.",
+            "lat": 42.5599955,
+            "lng": 12.6468084,
+            "turnover": 803319
+        },
+        {
+            "name": "PIZZERIA PAZZOPACHINO DI ENUCA CECILIA",
+            "lat": 42.5592549,
+            "lng": 12.6080457,
+            "turnover": 0
+        },
+        {
+            "name": "PIZZERIA DA MARTINO 2 DI MARTINO LEONORA",
+            "lat": 42.5530471,
+            "lng": 12.6378867,
+            "turnover": 0
+        },
+        {
+            "name": "PIZZERIA DEL TEATRO DI PELLEGRINI STEFANIA",
+            "lat": 42.6519568,
+            "lng": 12.4279036,
+            "turnover": 0
+        },
+        {
+            "name": "PIZZERIA SAN GIUSEPPE DI LEVANDOVYCH IRYNA",
+            "lat": 42.7178771,
+            "lng": 12.1108301,
+            "turnover": 0
+        },
+        {
+            "name": "PIZZERIA LE ROSE DI CACCIARINO MARIA PIA",
+            "lat": 42.7194542,
+            "lng": 12.0966563,
+            "turnover": 0
+        },
+        {
+            "name": "PIZZERIA VERY GOOD S.R.L.",
+            "lat": 42.5443173,
+            "lng": 12.650576,
+            "turnover": 541089
+        },
+        {
+            "name": "RISTORANTE PIZZERIA LE MACINE S.R.L.",
+            "lat": 42.5723897,
+            "lng": 12.6577838,
+            "turnover": 0
+        },
+        {
+            "name": "PIZZERIA IL TEMPIO SOCIETA' A RESPONSABILITA' LIMITATA SEMPLIFICATA",
+            "lat": 42.5597048,
+            "lng": 12.6480123,
+            "turnover": 0
+        },
+        {
+            "name": "TRATTORIA PIZZERIA CASA NOSTRA S.R.L.",
+            "lat": 42.5796782,
+            "lng": 12.6905851,
+            "turnover": 230508
+        },
+        {
+            "name": "PIZZERIA DEL PONTE S.N.C. DI BRUNELLI MARCELLO E DOMINICI DONATELLA",
+            "lat": 42.7261101,
+            "lng": 12.1355091,
+            "turnover": 0
+        },
+        {
+            "name": "PIZZERIA DA MARIO DI VIOLA FEDERICA",
+            "lat": 42.5678365,
+            "lng": 12.6619874,
+            "turnover": 0
+        },
+        {
+            "name": "PIZZERIA BATTISTI DI SAQELLARI GENTI",
+            "lat": 42.5674661,
+            "lng": 12.644485,
+            "turnover": 0
+        }
+    ];
+
+    function getRadius(turnover) {
+        if (turnover <= 0) {
+            return 5;
+        }
+        return 5 + Math.log(turnover) * 2;
+    }
+
+    for (var i = 0; i < pizzerias.length; i++) {
+        var pizzeria = pizzerias[i];
+        var circle = L.circleMarker([pizzeria.lat, pizzeria.lng], {
+            radius: getRadius(pizzeria.turnover),
+            fillColor: "#ff7800",
+            color: "#000",
+            weight: 1,
+            opacity: 1,
+            fillOpacity: 0.8
+        }).addTo(map);
+        circle.bindPopup(pizzeria.name + "<br>Fatturato: " + pizzeria.turnover + " EUR");
+    }
+
+    var legend = L.control({position: 'bottomright'});
+
+    legend.onAdd = function (map) {
+
+        var div = L.DomUtil.create('div', 'info legend'),
+            grades = [0, 100000, 500000, 1000000],
+            labels = [];
+
+        div.innerHTML += '<strong>Fatturato (EUR)</strong><br>'
+
+        for (var i = 0; i < grades.length; i++) {
+            div.innerHTML +=
+                '<i style="background:' + '#ff7800' + '; width: ' + getRadius(grades[i] + 1) * 2 + 'px; height: ' + getRadius(grades[i] + 1) * 2 + 'px; border-radius: 50%;"></i> ' +
+                grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
+        }
+
+        return div;
+    };
+
+    legend.addTo(map);
+
+</script>
+
+</body>
+</html>

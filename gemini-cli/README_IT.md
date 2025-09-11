@@ -9,6 +9,11 @@ https://github.com/google-gemini/gemini-cli
 
 https://cloud.google.com/gemini/docs/codeassist/gemini-cli
 
+## 📋 Prerequisiti
+
+- **Gemini CLI**
+- **Token OpenAPI** (ottenibile da [openapi.com](https://openapi.com))
+
 ## Installazione tramite npm
 
 Gemini CLI è disponibile come pacchetto npm. 
@@ -627,3 +632,8 @@ Ottenuti i dati procede a generare un report in formato html che verrà scritto 
 ✦ Ho generato il report in formato html, lo puoi trovare qui:
   ~/Openapi/McpGeminiCli/openapi_report.html
 ```
+
+## Altri Esempi
+- [Esempio di estrazione dati](dataEstractionExample.txt): Un esempio di conversazione ed estrazione dati da MCP.
+- [Pizzerie Terni](pizzerieTerni.csv): Un file CSV contenente un elenco di pizzerie nella provincia di Terni generato durante la conversazione.
+- [Mappa Pizzerie](mappa_pizzerie.html): Una mappa interattiva delle pizzerie a Terni generata durante la conversazione.

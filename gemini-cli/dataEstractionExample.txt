@@ -1,0 +1,400 @@
+
+ ███            █████████  ██████████ ██████   ██████ █████ ██████   █████ █████
+░░░███         ███░░░░░███░░███░░░░░█░░██████ ██████ ░░███ ░░██████ ░░███ ░░███
+  ░░░███      ███     ░░░  ░███  █ ░  ░███░█████░███  ░███  ░███░███ ░███  ░███
+    ░░░███   ░███          ░██████    ░███░░███ ░███  ░███  ░███░░███░███  ░███
+     ███░    ░███    █████ ░███░░█    ░███ ░░░  ░███  ░███  ░███ ░░██████  ░███
+   ███░      ░░███  ░░███  ░███ ░   █ ░███      ░███  ░███  ░███  ░░█████  ░███
+ ███░         ░░█████████  ██████████ █████     █████ █████ █████  ░░█████ █████
+░░░            ░░░░░░░░░  ░░░░░░░░░░ ░░░░░     ░░░░░ ░░░░░ ░░░░░    ░░░░░ ░░░░░
+
+Tips for getting started:
+1. Ask questions, edit files, or run commands.
+2. Be specific for the best results.
+3. /help for more information.
+
+╭─────────────────────────────────────────────────────────────────────────────────────╮
+│  > crea un file pizzerieTerni.csv con l'indirizzo e la pec delle pizzerie di terni  │
+╰─────────────────────────────────────────────────────────────────────────────────────╯
+
+ ╭────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+ │ ✓  get_company_IT_search (OpenapiMcpServer MCP Server) {"provinceCode":"TR","limit":100,"dataEnrichment":"advanced","companyName":"pizzeria"}                                                              │
+ │                                                                                                                                                                                                            │
+ │    ... first 606 lines hidden ...                                                                                                                                                                          │
+ │    :null,"all":[{"year":2025,"balanceSheetDate":null,"turnover":null,"netWorth":null,"employees":3,"shareCapital":0,"totalStaffCost":null,"totalAssets":null},{"year":2024,"employees":4,"balanceSheetDat  │
+ │    e":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2023,"employees":3,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2022,"employees":5,"balanceShee  │
+ │    tDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2021,"employees":4,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0}]},"id":"60d1c48bf335ab51b264aaba","  │
+ │    shareHolders":[]},{"taxCode":"DMNMNL68R47L117H","vatCode":"01396250555","companyName":"PIZZERIA EVERGREEN DI DIAMANTI MANOLA","address":{"registeredOffice":{"toponym":"VIA","street":"S.               │
+ │    FRANCESCO","streetNumber":"16","streetName":"VIA S. FRANCESCO                                                                                                                                           │
+ │    16","town":"STRONCONE","hamlet":null,"province":"TR","zipCode":null,"gps":null,"region":{"code":"10","description":"UMBRIA"},"townCode":"I981"}},"activityStatus":"CESSATA","reaCode":"93918","cciaa":  │
+ │    "TR","atecoClassification":{"ateco":{"code":null,"description":null},"ateco2007":{"code":null,"description":null},"ateco2022":{"code":null,"description":null}},"detailedLegalForm":{"code":null,"desc  │
+ │    ription":null},"startDate":null,"registrationDate":null,"endDate":"2010-06-01","pec":null,"taxCodeCeased":true,"taxCodeCeasedTimestamp":null,"vatGroup":{"vatGroupParticipation":false,"isVatGroupLead  │
+ │    er":false,"registryOk":true},"sdiCode":null,"sdiCodeTimestamp":1641794592,"creationTimestamp":1641794592,"lastUpdateTimestamp":1660299187,"balanceSheets":{"last":null,"all":[]},"id":"61dbcc207f07862  │
+ │    8866456c6","shareHolders":[]},{"taxCode":"BRCMHL80C71G148S","vatCode":"01440600557","companyName":"PIZZERIA TRE LUNE DI BRACHINO                                                                        │
+ │    MICHELA","address":{"registeredOffice":{"toponym":"BORGO","street":"GARIBALDI","streetNumber":"46/A","streetName":"BORGO GARIBALDI                                                                      │
+ │    46/A","town":"FICULLE","hamlet":null,"province":"TR","zipCode":null,"gps":null,"region":{"code":"10","description":"UMBRIA"},"townCode":"D570"}},"activityStatus":"CESSATA","reaCode":"97717","cciaa":  │
+ │    "TR","atecoClassification":{"ateco":{"code":null,"description":null},"ateco2007":{"code":null,"description":null},"ateco2022":{"code":null,"description":null}},"detailedLegalForm":{"code":null,"desc  │
+ │    ription":null},"startDate":null,"registrationDate":null,"endDate":"2014-11-23","pec":null,"taxCodeCeased":true,"taxCodeCeasedTimestamp":null,"vatGroup":{"vatGroupParticipation":false,"isVatGroupLead  │
+ │    er":false,"registryOk":true},"sdiCode":null,"sdiCodeTimestamp":1641795012,"creationTimestamp":1641795012,"lastUpdateTimestamp":1660298006,"balanceSheets":{"last":null,"all":[]},"id":"61dbcdc439fd021  │
+ │    038253053","shareHolders":[]},{"taxCode":"NSALND87L09Z129Q","vatCode":"01678040559","companyName":"PIZZERIA LA FONTANA DI ANISIA                                                                        │
+ │    ALEXANDRU","address":{"registeredOffice":{"toponym":"PIAZZA","street":"CORNELIO TACITO","streetNumber":"15-15/A","streetName":"PIAZZA CORNELIO TACITO                                                   │
+ │    15-15/A","town":"TERNI","hamlet":null,"province":"TR","zipCode":"05100","gps":{"coordinates":[12.64886,42.5669]},"region":{"code":"10","description":"UMBRIA"},"townCode":"L117"}},"activityStatus":"C  │
+ │    ESSATA","reaCode":"354156","cciaa":"TR","atecoClassification":{"ateco":{"code":"56102","description":"Ristorazione senza somministrazione con preparazione di cibi da                                   │
+ │    asporto"},"ateco2007":{"code":"56102","description":"Ristorazione senza somministrazione con preparazione di cibi da asporto"},"ateco2022":{"code":"56102","description":"Ristorazione senza            │
+ │    somministrazione con preparazione di cibi da asporto"}},"detailedLegalForm":{"code":"DI","description":"IMPRESA                                                                                         │
+ │    INDIVIDUALE"},"startDate":"2021-12-27","registrationDate":"2021-12-02","endDate":null,"pec":"anisiaalexandru@pec.it","taxCodeCeased":false,"taxCodeCeasedTimestamp":1645113905,"vatGroup":{"vatGroupPa  │
+ │    rticipation":false,"isVatGroupLeader":false,"registryOk":true},"sdiCode":"0000000","sdiCodeTimestamp":1645113905,"creationTimestamp":1645113905,"lastUpdateTimestamp":1700984489,"balanceSheets":{"las  │
+ │    t":null,"all":[{"year":2023,"employees":4,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2022,"employees":0,"balanceSheetDate":null,"turnover":null,"netWorth":null  │
+ │    ,"shareCapital":0},{"year":2021,"employees":0,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0}]},"id":"620e723168086348f863b49b","shareHolders":[]},{"taxCode":"RSTMSM59B20G1  │
+ │    48A","vatCode":"00594630550","companyName":"PIZZERIA S. DOMENICO DI ROSATI MASSIMO","address":{"registeredOffice":{"toponym":"PIAZZA","street":"XXIX MARZO","streetNumber":"18","streetName":"PIAZZA    │
+ │    XXIX MARZO                                                                                                                                                                                              │
+ │    18","town":"ORVIETO","hamlet":null,"province":"TR","zipCode":"05018","gps":null,"region":{"code":"10","description":"UMBRIA"},"townCode":"G148"}},"activityStatus":"CESSATA","reaCode":"63199","cciaa"  │
+ │    :"TR","atecoClassification":{"ateco":{"code":null,"description":null},"ateco2007":{"code":null,"description":null},"ateco2022":{"code":null,"description":null}},"detailedLegalForm":{"code":null,"des  │
+ │    cription":null},"startDate":null,"registrationDate":null,"endDate":"2020-02-04","pec":null,"taxCodeCeased":true,"taxCodeCeasedTimestamp":null,"vatGroup":{"vatGroupParticipation":false,"isVatGroupLea  │
+ │    der":false,"registryOk":true},"sdiCode":"0000000","sdiCodeTimestamp":1641757495,"creationTimestamp":1641757495,"lastUpdateTimestamp":1660222446,"balanceSheets":{"last":null,"all":[]},"id":"61db3b37a  │
+ │    c7e69553c1e4587","shareHolders":[]},{"taxCode":"DSSNNT55R65Z315Y","vatCode":"01287690554","companyName":"PIZZERIA FOCACCERIA ACQUAS PARTAS DI ADESSI                                                    │
+ │    ANTONIETTA","address":{"registeredOffice":{"toponym":"VIA","street":"G. MARCONI","streetNumber":"13","streetName":"VIA G. MARCONI                                                                       │
+ │    13","town":"ACQUASPARTA","hamlet":null,"province":"TR","zipCode":null,"gps":null,"region":{"code":"10","description":"UMBRIA"},"townCode":"A045"}},"activityStatus":"CESSATA","reaCode":"86919","cciaa  │
+ │    ":"TR","atecoClassification":{"ateco":{"code":null,"description":null},"ateco2007":{"code":null,"description":null},"ateco2022":{"code":null,"description":null}},"detailedLegalForm":{"code":null,"de  │
+ │    scription":null},"startDate":null,"registrationDate":null,"endDate":"2015-07-16","pec":null,"taxCodeCeased":true,"taxCodeCeasedTimestamp":null,"vatGroup":{"vatGroupParticipation":false,"isVatGroupLe  │
+ │    ader":false,"registryOk":true},"sdiCode":null,"sdiCodeTimestamp":1641777938,"creationTimestamp":1641777938,"lastUpdateTimestamp":1660227090,"balanceSheets":{"last":null,"all":[]},"id":"61db8b12ed00f  │
+ │    27e752150e7","shareHolders":[]},{"taxCode":"CSTKSC76S59A944A","vatCode":"01319250559","companyName":"PIZZERIA HOUSE DI CASTELLANI                                                                       │
+ │    KATIUSCIA","address":{"registeredOffice":{"toponym":"CORSO","street":"DEL POPOLO","streetNumber":"17","streetName":"CORSO DEL POPOLO                                                                    │
+ │    17","town":"TERNI","hamlet":null,"province":"TR","zipCode":"05100","gps":null,"region":{"code":"10","description":"UMBRIA"},"townCode":"L117"}},"activityStatus":"CESSATA","reaCode":"88022","cciaa":"  │
+ │    TR","atecoClassification":{"ateco":{"code":null,"description":null},"ateco2007":{"code":null,"description":null},"ateco2022":{"code":null,"description":null}},"detailedLegalForm":{"code":null,"descr  │
+ │    iption":null},"startDate":null,"registrationDate":null,"endDate":"2021-04-27","pec":null,"taxCodeCeased":true,"taxCodeCeasedTimestamp":null,"vatGroup":{"vatGroupParticipation":false,"isVatGroupLeade  │
+ │    r":false,"registryOk":true},"sdiCode":"0000000","sdiCodeTimestamp":1641772492,"creationTimestamp":1641772492,"lastUpdateTimestamp":1660300807,"balanceSheets":{"last":null,"all":[]},"id":"61db75cc632  │
+ │    bc45f4a7fa287","shareHolders":[]},{"taxCode":"01204800559","vatCode":"01204800559","companyName":"PIZZERIA DEL RIVO 2001 S.N.C. DI STENTELLA MAFALDA E                                                  │
+ │    C.","address":{"registeredOffice":{"toponym":"VIA","street":"DEL FRINGUELLO","streetNumber":"5","streetName":"VIA DEL FRINGUELLO                                                                        │
+ │    5","town":"TERNI","hamlet":null,"province":"TR","zipCode":"05100","gps":{"coordinates":[12.62449,42.58079]},"region":{"code":"10","description":"UMBRIA"},"townCode":"L117"}},"activityStatus":"CESSAT  │
+ │    A","reaCode":"79918","cciaa":"TR","atecoClassification":{"ateco":{"code":null,"description":null},"ateco2007":{"code":null,"description":null},"ateco2022":{"code":null,"description":null}},"detailed  │
+ │    LegalForm":{"code":null,"description":null},"startDate":null,"registrationDate":null,"endDate":"2017-10-04","pec":null,"taxCodeCeased":true,"taxCodeCeasedTimestamp":null,"vatGroup":{"vatGroupPartici  │
+ │    pation":false,"isVatGroupLeader":false,"registryOk":true},"sdiCode":null,"sdiCodeTimestamp":1641774140,"creationTimestamp":1641774140,"lastUpdateTimestamp":1660302119,"balanceSheets":{"last":null,"a  │
+ │    ll":[]},"id":"61db7c3cb35fe44c1f7e74db","shareHolders":[]},{"taxCode":"TNRMHL83C10F844L","vatCode":"01506540556","companyName":"PIZZERIA MILU DI TINARELLI                                              │
+ │    MICHELE","address":{"registeredOffice":{"toponym":"VIA","street":"ROMA","streetNumber":"165","streetName":"VIA ROMA                                                                                     │
+ │    165","town":"TERNI","hamlet":null,"province":"TR","zipCode":null,"gps":null,"region":{"code":"10","description":"UMBRIA"},"townCode":"L117"}},"activityStatus":"CESSATA","reaCode":"102380","cciaa":"T  │
+ │    R","atecoClassification":{"ateco":{"code":null,"description":null},"ateco2007":{"code":null,"description":null},"ateco2022":{"code":null,"description":null}},"detailedLegalForm":{"code":null,"descri  │
+ │    ption":null},"startDate":null,"registrationDate":null,"endDate":"2018-12-27","pec":null,"taxCodeCeased":true,"taxCodeCeasedTimestamp":null,"vatGroup":{"vatGroupParticipation":false,"isVatGroupLeader  │
+ │    ":false,"registryOk":true},"sdiCode":null,"sdiCodeTimestamp":1641777004,"creationTimestamp":1641777004,"lastUpdateTimestamp":1660222473,"balanceSheets":{"last":null,"all":[]},"id":"61db876cc821c314b  │
+ │    263acf6","shareHolders":[]},{"taxCode":"01291650552","vatCode":"01291650552","companyName":"PIZZERIA CASA MIA S.N.C. - DI TERENZI MARCO &                                                               │
+ │    C.","address":{"registeredOffice":{"toponym":"CORSO","street":"TACITO","streetNumber":"90","streetName":"CORSO TACITO                                                                                   │
+ │    90","town":"TERNI","hamlet":null,"province":"TR","zipCode":"05100","gps":{"coordinates":[12.6480916,42.5641262]},"region":{"code":"10","description":"UMBRIA"},"townCode":"L117"}},"activityStatus":"C  │
+ │    ESSATA","reaCode":"86157","cciaa":"TR","atecoClassification":{"ateco":{"code":null,"description":null},"ateco2007":{"code":null,"description":null},"ateco2022":{"code":null,"description":null}},"det  │
+ │    ailedLegalForm":{"code":null,"description":null},"startDate":null,"registrationDate":null,"endDate":"2017-09-05","pec":null,"taxCodeCeased":true,"taxCodeCeasedTimestamp":null,"vatGroup":{"vatGroupPa  │
+ │    rticipation":false,"isVatGroupLeader":false,"registryOk":true},"sdiCode":null,"sdiCodeTimestamp":1641715714,"creationTimestamp":1641715714,"lastUpdateTimestamp":1660298050,"balanceSheets":{"last":nu  │
+ │    ll,"all":[]},"id":"61da9802f23a916a64637ace","shareHolders":[]},{"taxCode":"BDRLRD61P19Z613S","vatCode":"01476670557","companyName":"PIZZERIA PAZZOPACHINO CENTRO DI BIDARRA MARTINEZ ALVARO            │
+ │    DANIEL","address":{"registeredOffice":{"toponym":"VIA","street":"GABELLETTA","streetNumber":"5/H","streetName":"VIA GABELLETTA                                                                          │
+ │    5/H","town":"TERNI","hamlet":null,"province":"TR","zipCode":"05100","gps":{"coordinates":[12.60358,42.58812]},"region":{"code":"10","description":"UMBRIA"},"townCode":"L117"}},"activityStatus":"ATTI  │
+ │    VA","reaCode":"99999","cciaa":"TR","atecoClassification":{"ateco":{"code":"561112","description":"Attivita' di ristoranti senza servizio al tavolo o da asporto, escluse gelaterie e                    │
+ │    pasticcerie"},"ateco2007":{"code":"56102","description":"Ristorazione senza somministrazione con preparazione di cibi da asporto"},"ateco2022":{"code":"56102","description":"Ristorazione senza        │
+ │    somministrazione con preparazione di cibi da asporto"}},"detailedLegalForm":{"code":"DI","description":"IMPRESA                                                                                         │
+ │    INDIVIDUALE"},"startDate":"2012-04-18","registrationDate":"2011-11-29","endDate":null,"pec":"pazzopachinocentro@pec.it","taxCodeCeased":false,"taxCodeCeasedTimestamp":1624358955,"vatGroup":{"vatGrou  │
+ │    pParticipation":false,"isVatGroupLeader":false,"registryOk":true},"sdiCode":"0000000","sdiCodeTimestamp":1624358955,"creationTimestamp":1624358955,"lastUpdateTimestamp":1755718108,"balanceSheets":{"  │
+ │    last":null,"all":[{"year":2025,"balanceSheetDate":null,"turnover":null,"netWorth":null,"employees":4,"shareCapital":0,"totalStaffCost":null,"totalAssets":null},{"year":2024,"employees":4,"balanceShe  │
+ │    etDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2023,"employees":5,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2022,"employees":12,"balan  │
+ │    ceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2021,"employees":12,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0}]},"id":"60d1c02b9774ce2cfe48  │
+ │    ecfa","shareHolders":[]},{"taxCode":"00670580554","vatCode":"00670580554","companyName":"PIZZERIA DEL CORSO S.N.C. DI PROIETTI SABRINA E                                                                │
+ │    C.","address":{"registeredOffice":{"toponym":"CORSO","street":"VECCHIO","streetNumber":"197","streetName":"CORSO VECCHIO                                                                                │
+ │    197","town":"TERNI","hamlet":null,"province":"TR","zipCode":"05100","gps":{"coordinates":[12.65123,42.56409]},"region":{"code":"10","description":"UMBRIA"},"townCode":"L117"}},"activityStatus":"INAT  │
+ │    TIVA","reaCode":"67591","cciaa":"TR","atecoClassification":{"ateco":{"code":null,"description":null},"ateco2007":{"code":"56102","description":"Ristorazione senza somministrazione con preparazione    │
+ │    di cibi da asporto"},"ateco2022":{"code":"56102","description":"Ristorazione senza somministrazione con preparazione di cibi da asporto"}},"detailedLegalForm":{"code":"SN","description":"SOCIETA' IN  │
+ │    NOME                                                                                                                                                                                                    │
+ │    COLLETTIVO"},"startDate":"2015-01-07","registrationDate":"1994-10-04","endDate":null,"pec":"pizzeriadelcorsoterni@pec.it","taxCodeCeased":false,"taxCodeCeasedTimestamp":1624359954,"vatGroup":{"vatGr  │
+ │    oupParticipation":false,"isVatGroupLeader":false,"registryOk":true},"sdiCode":null,"sdiCodeTimestamp":1624359954,"creationTimestamp":1624359954,"lastUpdateTimestamp":1755692897,"balanceSheets":{"las  │
+ │    t":null,"all":[{"year":2025,"balanceSheetDate":null,"turnover":null,"netWorth":null,"employees":0,"shareCapital":0,"totalStaffCost":null,"totalAssets":null},{"year":2024,"employees":1,"balanceSheetD  │
+ │    ate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2023,"employees":1,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2022,"employees":1,"balanceSh  │
+ │    eetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2021,"employees":1,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0}]},"id":"60d1c412f335ab51b25f172e"  │
+ │    ,"shareHolders":[]},{"taxCode":"00745920553","vatCode":null,"companyName":"RISTORANTE PIZZERIA LA BELLA NAPOLI DI INCARNATO LUIGI E C.                                                                  │
+ │    S.N.C","address":{"registeredOffice":{"toponym":"VOCABOLO","street":"CAPONERO","streetNumber":"57/F","streetName":"VOCABOLO CAPONERO                                                                    │
+ │    57/F","town":"MONTECASTRILLI","hamlet":null,"province":"TR","zipCode":"05026","gps":{},"region":{"code":"10","description":"UMBRIA"},"townCode":"F457"}},"activityStatus":"CESSATA","reaCode":"76697",  │
+ │    "cciaa":"TR","atecoClassification":{"ateco":{"code":null,"description":null},"ateco2007":{"code":null,"description":null},"ateco2022":{"code":null,"description":null}},"detailedLegalForm":{"code":nu  │
+ │    ll,"description":null},"startDate":null,"registrationDate":null,"endDate":"2001-01-26","pec":null,"taxCodeCeased":true,"taxCodeCeasedTimestamp":null,"vatGroup":null,"sdiCode":null,"sdiCodeTimestamp"  │
+ │    :null,"creationTimestamp":1660146949,"lastUpdateTimestamp":1660146949,"balanceSheets":{"last":null,"all":[]},"id":"62f3d505ad128e30f5661f58","shareHolders":[]},{"taxCode":"WHBGGS90E04Z336B","vatCode  │
+ │    ":"01428170557","companyName":"PIZZERIA UNIKA DI WAHIB GIRGIS","address":{"registeredOffice":{"toponym":"VIA","street":"CURIO DENTATO","streetNumber":"80 - 82","streetName":"VIA CURIO DENTATO 80 -    │
+ │    82","town":"TERNI","hamlet":null,"province":"TR","zipCode":"05100","gps":{},"region":{"code":"10","description":"UMBRIA"},"townCode":"L117"}},"activityStatus":"CESSATA","reaCode":"96160","cciaa":"TR  │
+ │    ","atecoClassification":{"ateco":{"code":null,"description":null},"ateco2007":{"code":null,"description":null},"ateco2022":{"code":null,"description":null}},"detailedLegalForm":{"code":null,"descrip  │
+ │    tion":null},"startDate":null,"registrationDate":null,"endDate":"2010-08-11","pec":null,"taxCodeCeased":true,"taxCodeCeasedTimestamp":null,"vatGroup":null,"sdiCode":null,"sdiCodeTimestamp":null,"crea  │
+ │    tionTimestamp":1660146555,"lastUpdateTimestamp":1660146555,"balanceSheets":{"last":null,"all":[]},"id":"62f3d37bb6ed8a32b12dcbb2","shareHolders":[]},{"taxCode":"MNCCLN69L59L117I","vatCode":null,"com  │
+ │    panyName":"PIZZERIA IL VIALE DI MANCINI CAROLINA","address":{"registeredOffice":{"toponym":"VIALE","street":"B.BRIN","streetNumber":"66","streetName":"VIALE B.BRIN                                     │
+ │    66","town":"TERNI","hamlet":null,"province":"TR","zipCode":"05100","gps":{},"region":{"code":"10","description":"UMBRIA"},"townCode":"L117"}},"activityStatus":"CESSATA","reaCode":"67723","cciaa":"TR  │
+ │    ","atecoClassification":{"ateco":{"code":null,"description":null},"ateco2007":{"code":null,"description":null},"ateco2022":{"code":null,"description":null}},"detailedLegalForm":{"code":null,"descrip  │
+ │    tion":null},"startDate":null,"registrationDate":null,"endDate":"1996-09-20","pec":null,"taxCodeCeased":true,"taxCodeCeasedTimestamp":null,"vatGroup":null,"sdiCode":null,"sdiCodeTimestamp":null,"crea  │
+ │    tionTimestamp":1660146643,"lastUpdateTimestamp":1660146643,"balanceSheets":{"last":null,"all":[]},"id":"62f3d3d3b6ed8a32b12ed943","shareHolders":[]},{"taxCode":"DNOMLE73M49Z129G","vatCode":"01411700  │
+ │    550","companyName":"PIZZERIA ROXY DI DOANA EMILIA","address":{"registeredOffice":{"toponym":"VIA","street":"MANCINI","streetNumber":"21","streetName":"VIA MANCINI                                      │
+ │    21","town":"TERNI","hamlet":null,"province":"TR","zipCode":"05100","gps":{},"region":{"code":"10","description":"UMBRIA"},"townCode":"L117"}},"activityStatus":"CESSATA","reaCode":"95813","cciaa":"TR  │
+ │    ","atecoClassification":{"ateco":{"code":null,"description":null},"ateco2007":{"code":null,"description":null},"ateco2022":{"code":null,"description":null}},"detailedLegalForm":{"code":null,"descrip  │
+ │    tion":null},"startDate":null,"registrationDate":null,"endDate":"2010-05-31","pec":null,"taxCodeCeased":true,"taxCodeCeasedTimestamp":null,"vatGroup":null,"sdiCode":null,"sdiCodeTimestamp":null,"crea  │
+ │    tionTimestamp":1660146526,"lastUpdateTimestamp":1660146526,"balanceSheets":{"last":null,"all":[]},"id":"62f3d35eb6ed8a32b12d6a53","shareHolders":[]},{"taxCode":"RCCTRS94D41G702U","vatCode":"02374280  │
+ │    507","companyName":"PIZZERIA DELL'ALFINA DI RICCIO TERESA","address":{"registeredOffice":{"toponym":"PIAZZA","street":"DEL MUNICIPIO","streetNumber":"11","streetName":"PIAZZA DEL MUNICIPIO            │
+ │    11","town":"CASTEL                                                                                                                                                                                      │
+ │    GIORGIO","hamlet":null,"province":"TR","zipCode":"05013","gps":{"coordinates":[11.52338,46.06656]},"region":{"code":"10","description":"UMBRIA"},"townCode":"C117"}},"activityStatus":"ATTIVA","reaCod  │
+ │    e":"113840","cciaa":"TR","atecoClassification":{"ateco":{"code":"561111","description":"Attivita' di ristoranti con servizio al tavolo, escluse gelaterie e pasticcerie                                 │
+ │    "},"ateco2007":{"code":"561011","description":"Ristorazione con somministrazione"},"ateco2022":{"code":"561011","description":"Ristorazione con                                                         │
+ │    somministrazione"}},"detailedLegalForm":{"code":"DI","description":"IMPRESA                                                                                                                             │
+ │    INDIVIDUALE"},"startDate":null,"registrationDate":"2020-06-19","endDate":null,"pec":null,"taxCodeCeased":false,"taxCodeCeasedTimestamp":1624365516,"vatGroup":{"vatGroupParticipation":false,"isVatGro  │
+ │    upLeader":false,"registryOk":true},"sdiCode":"0000000","sdiCodeTimestamp":1624365516,"creationTimestamp":1624365516,"lastUpdateTimestamp":1755743803,"balanceSheets":{"last":null,"all":[{"year":2025,  │
+ │    "balanceSheetDate":null,"turnover":null,"netWorth":null,"employees":1,"shareCapital":0,"totalStaffCost":null,"totalAssets":null},{"year":2024,"employees":2,"balanceSheetDate":null,"turnover":null,"n  │
+ │    etWorth":null,"shareCapital":0},{"year":2023,"employees":2,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2022,"employees":5,"balanceSheetDate":null,"turnover":nul  │
+ │    l,"netWorth":null,"shareCapital":0},{"year":2021,"employees":3,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0}]},"id":"60d1d9cc50531255850dd0c1","shareHolders":[]},{"taxCod  │
+ │    e":"01224210557","vatCode":"01224210557","companyName":"PIZZERIA EVERGREEN DI CONTESSA VITTORINO & C. S.N.C.","address":{"registeredOffice":{"toponym":"VIA","street":"SAN                              │
+ │    FRANCESCO","streetNumber":"16","streetName":"VIA SAN FRANCESCO                                                                                                                                          │
+ │    16","town":"STRONCONE","hamlet":null,"province":"TR","zipCode":"05039","gps":{"coordinates":[12.66081,42.49763]},"region":{"code":"10","description":"UMBRIA"},"townCode":"I981"}},"activityStatus":"C  │
+ │    ESSATA","reaCode":"81317","cciaa":"TR","atecoClassification":{"ateco":{"code":null,"description":null},"ateco2007":{"code":null,"description":null},"ateco2022":{"code":null,"description":null}},"det  │
+ │    ailedLegalForm":{"code":null,"description":null},"startDate":null,"registrationDate":null,"endDate":"2017-09-05","pec":null,"taxCodeCeased":true,"taxCodeCeasedTimestamp":null,"vatGroup":{"vatGroupPa  │
+ │    rticipation":false,"isVatGroupLeader":false,"registryOk":true},"sdiCode":null,"sdiCodeTimestamp":1641702912,"creationTimestamp":1641702912,"lastUpdateTimestamp":1660222890,"balanceSheets":{"last":nu  │
+ │    ll,"all":[]},"id":"61da6600e0f3e9594160015b","shareHolders":[]},{"taxCode":"GSPLMR62E58H501W","vatCode":"01269620553","companyName":"PIZZERIA SOLE E LUNA DI GASPERONI ALGA                             │
+ │    MARIA","address":{"registeredOffice":{"toponym":"VIA","street":"ORVIETO","streetNumber":"6","streetName":"VIA ORVIETO 6","town":"LUGNANO IN                                                             │
+ │    TEVERINA","hamlet":null,"province":"TR","zipCode":null,"gps":null,"region":{"code":"10","description":"UMBRIA"},"townCode":"E729"}},"activityStatus":"CESSATA","reaCode":"85160","cciaa":"TR","atecoCl  │
+ │    assification":{"ateco":{"code":null,"description":null},"ateco2007":{"code":null,"description":null},"ateco2022":{"code":null,"description":null}},"detailedLegalForm":{"code":null,"description":null  │
+ │    },"startDate":null,"registrationDate":null,"endDate":"2017-01-20","pec":null,"taxCodeCeased":true,"taxCodeCeasedTimestamp":null,"vatGroup":{"vatGroupParticipation":false,"isVatGroupLeader":false,"re  │
+ │    gistryOk":true},"sdiCode":null,"sdiCodeTimestamp":1641704745,"creationTimestamp":1641704745,"lastUpdateTimestamp":1660222819,"balanceSheets":{"last":null,"all":[]},"id":"61da6d29064dea054e7a77be","s  │
+ │    hareHolders":[]},{"taxCode":"CLLCLL64L24H501N","vatCode":"01528910555","companyName":"BAR PIZZERIA DA ACHILLE DI COLLETTINI ACHILLE","address":{"registeredOffice":{"toponym":"STRADA","street":"DELLE  │
+ │    PRETARE","streetNumber":"16","streetName":"STRADA DELLE PRETARE                                                                                                                                         │
+ │    16","town":"NARNI","hamlet":null,"province":"TR","zipCode":null,"gps":null,"region":{"code":"10","description":"UMBRIA"},"townCode":"F844"}},"activityStatus":"CESSATA","reaCode":"104688","cciaa":"TR  │
+ │    ","atecoClassification":{"ateco":{"code":null,"description":null},"ateco2007":{"code":null,"description":null},"ateco2022":{"code":null,"description":null}},"detailedLegalForm":{"code":null,"descrip  │
+ │    tion":null},"startDate":null,"registrationDate":null,"endDate":"2021-06-01","pec":null,"taxCodeCeased":true,"taxCodeCeasedTimestamp":null,"vatGroup":{"vatGroupParticipation":false,"isVatGroupLeader"  │
+ │    :false,"registryOk":true},"sdiCode":null,"sdiCodeTimestamp":1640394379,"creationTimestamp":1640394379,"lastUpdateTimestamp":1660231121,"balanceSheets":{"last":null,"all":[]},"id":"61c66e8bacb1414f26  │
+ │    765b27","shareHolders":[]},{"taxCode":"NCCCRL69T56L117F","vatCode":"01489490555","companyName":"\"PIZZERIA \"\"LA REGINA\"\" DI NUCCIARELLI                                                             │
+ │    CARLA\"","address":{"registeredOffice":{"toponym":"VIA","street":"NARNI","streetNumber":"192/D","streetName":"VIA NARNI                                                                                 │
+ │    192/D","town":"TERNI","hamlet":null,"province":"TR","zipCode":null,"gps":null,"region":{"code":"10","description":"UMBRIA"},"townCode":"L117"}},"activityStatus":"CESSATA","reaCode":"101226","cciaa":  │
+ │    "TR","atecoClassification":{"ateco":{"code":null,"description":null},"ateco2007":{"code":null,"description":null},"ateco2022":{"code":null,"description":null}},"detailedLegalForm":{"code":null,"desc  │
+ │    ription":null},"startDate":null,"registrationDate":null,"endDate":"2014-10-08","pec":null,"taxCodeCeased":true,"taxCodeCeasedTimestamp":null,"vatGroup":{"vatGroupParticipation":false,"isVatGroupLead  │
+ │    er":false,"registryOk":true},"sdiCode":null,"sdiCodeTimestamp":1641709460,"creationTimestamp":1641709460,"lastUpdateTimestamp":1660216507,"balanceSheets":{"last":null,"all":[]},"id":"61da7f94075bdd6  │
+ │    175698e35","shareHolders":[]},{"taxCode":"00537050551","vatCode":"00537050551","companyName":"PIZZERIA SAN FRANCESCO DI STUFARA SERGIO E LA GALANTE RITA                                                │
+ │    S.N.C.","address":{"registeredOffice":{"toponym":"VIA","street":"LUIGI LANZI","streetNumber":"22","streetName":"VIA LUIGI LANZI                                                                         │
+ │    22","town":"TERNI","hamlet":null,"province":"TR","zipCode":"05100","gps":{"coordinates":[12.6465322,42.5643221]},"region":{"code":"10","description":"UMBRIA"},"townCode":"L117"}},"activityStatus":"C  │
+ │    ESSATA","reaCode":"59190","cciaa":"TR","atecoClassification":{"ateco":{"code":null,"description":null},"ateco2007":{"code":null,"description":null},"ateco2022":{"code":null,"description":null}},"det  │
+ │    ailedLegalForm":{"code":null,"description":null},"startDate":null,"registrationDate":null,"endDate":"2013-07-30","pec":null,"taxCodeCeased":true,"taxCodeCeasedTimestamp":null,"vatGroup":null,"sdiCod  │
+ │    e":null,"sdiCodeTimestamp":null,"creationTimestamp":1660223508,"lastUpdateTimestamp":1660223508,"balanceSheets":{"last":null,"all":[]},"id":"62f50014e8ddf815553267bf","shareHolders":[]},{"taxCode":"  │
+ │    00623490554","vatCode":null,"companyName":"RISTORANTE PIZZERIA BAR ANTARES DI DI BIASIO ANTONIETTA E C. SNC","address":{"registeredOffice":{"toponym":"VIA","street":"LUNGONERA                         │
+ │    SAVOIA","streetNumber":"6-8","streetName":"VIA LUNGONERA SAVOIA                                                                                                                                         │
+ │    6-8","town":"TERNI","hamlet":null,"province":"TR","zipCode":"05100","gps":{},"region":{"code":"10","description":"UMBRIA"},"townCode":"L117"}},"activityStatus":"CESSATA","reaCode":"64729","cciaa":"T  │
+ │    R","atecoClassification":{"ateco":{"code":null,"description":null},"ateco2007":{"code":null,"description":null},"ateco2022":{"code":null,"description":null}},"detailedLegalForm":{"code":null,"descri  │
+ │    ption":null},"startDate":null,"registrationDate":null,"endDate":null,"pec":null,"taxCodeCeased":true,"taxCodeCeasedTimestamp":null,"vatGroup":null,"sdiCode":null,"sdiCodeTimestamp":null,"creationTim  │
+ │    estamp":1660223529,"lastUpdateTimestamp":1660223529,"balanceSheets":{"last":null,"all":[]},"id":"62f50029e8ddf81555329f14","shareHolders":[]},{"taxCode":"00450760558","vatCode":null,"companyName":"P  │
+ │    IZZERIA DI FICULLE S.N.C. DI GALLETTI INES, AMORINI ANNA ENRICA E DI GIROLAMO                                                                                                                           │
+ │    LAURA","address":{"registeredOffice":{"toponym":null,"street":null,"streetNumber":"3","streetName":"3","town":"FICULLE","hamlet":null,"province":"TR","zipCode":"05016","gps":{"coordinates":[12.06560  │
+ │    93,42.8362745]},"region":{"code":"10","description":"UMBRIA"},"townCode":"D570"}},"activityStatus":"CESSATA","reaCode":"54211","cciaa":"TR","atecoClassification":{"ateco":{"code":null,"description":  │
+ │    null},"ateco2007":{"code":null,"description":null},"ateco2022":{"code":null,"description":null}},"detailedLegalForm":{"code":null,"description":null},"startDate":null,"registrationDate":null,"endDat  │
+ │    e":"1996-09-05","pec":null,"taxCodeCeased":true,"taxCodeCeasedTimestamp":null,"vatGroup":null,"sdiCode":null,"sdiCodeTimestamp":null,"creationTimestamp":1660224022,"lastUpdateTimestamp":1660224022,"  │
+ │    balanceSheets":{"last":null,"all":[]},"id":"62f50216dee70d1c1a1e2059","shareHolders":[]},{"taxCode":"BRBMRA62B25L117U","vatCode":null,"companyName":"\"PIZZERIA \"\"LA PALA\"\" DI BARBATO              │
+ │    MAURO\"","address":{"registeredOffice":{"toponym":"VIALE","street":"DELLA STAZIONE","streetNumber":"39/A","streetName":"VIALE DELLA STAZIONE                                                            │
+ │    39/A","town":"TERNI","hamlet":null,"province":"TR","zipCode":"05100","gps":{"coordinates":[12.6504443,42.5697114]},"region":{"code":"10","description":"UMBRIA"},"townCode":"L117"}},"activityStatus":  │
+ │    "CESSATA","reaCode":"91427","cciaa":"TR","atecoClassification":{"ateco":{"code":null,"description":null},"ateco2007":{"code":null,"description":null},"ateco2022":{"code":null,"description":null}},"d  │
+ │    etailedLegalForm":{"code":null,"description":null},"startDate":null,"registrationDate":null,"endDate":"2013-02-05","pec":null,"taxCodeCeased":true,"taxCodeCeasedTimestamp":null,"vatGroup":null,"sdiC  │
+ │    ode":null,"sdiCodeTimestamp":null,"creationTimestamp":1660224349,"lastUpdateTimestamp":1660224349,"balanceSheets":{"last":null,"all":[]},"id":"62f5035d8c5b42034b704d0c","shareHolders":[]},{"taxCode"  │
+ │    :"01428020554","vatCode":"01428020554","companyName":"RISTORANTE PIZZERIA ZIO VALDO S.A.S. - DI GIORGI SAVERIO & C.","address":{"registeredOffice":{"toponym":"VIA","street":"DELLA                     │
+ │    LINCE","streetNumber":"2","streetName":"VIA DELLA LINCE                                                                                                                                                 │
+ │    2","town":"TERNI","hamlet":null,"province":"TR","zipCode":"05100","gps":{"coordinates":[12.59526,42.5975]},"region":{"code":"10","description":"UMBRIA"},"townCode":"L117"}},"activityStatus":"CESSATA  │
+ │    ","reaCode":"96131","cciaa":"TR","atecoClassification":{"ateco":{"code":null,"description":null},"ateco2007":{"code":null,"description":null},"ateco2022":{"code":null,"description":null}},"detailedL  │
+ │    egalForm":{"code":null,"description":null},"startDate":null,"registrationDate":null,"endDate":"2017-09-05","pec":null,"taxCodeCeased":true,"taxCodeCeasedTimestamp":null,"vatGroup":null,"sdiCode":nul  │
+ │    l,"sdiCodeTimestamp":null,"creationTimestamp":1660222745,"lastUpdateTimestamp":1660222745,"balanceSheets":{"last":null,"all":[]},"id":"62f4fd19dd7ded6537462c33","shareHolders":[]},{"taxCode":"015400  │
+ │    20557","vatCode":"01540020557","companyName":"PIZZERIA IL CAPRICCIO GENUINO S.N.C. DI TARLEV TATIANA & C.","address":{"registeredOffice":{"toponym":"VIA","street":"LUCA                                │
+ │    SIGNORELLI","streetNumber":"9","streetName":"VIA LUCA SIGNORELLI                                                                                                                                        │
+ │    9","town":"ORVIETO","hamlet":null,"province":"TR","zipCode":"05018","gps":{"coordinates":[12.11089,42.71789]},"region":{"code":"10","description":"UMBRIA"},"townCode":"G148"}},"activityStatus":"CESS  │
+ │    ATA","reaCode":"105150","cciaa":"TR","atecoClassification":{"ateco":{"code":null,"description":null},"ateco2007":{"code":null,"description":null},"ateco2022":{"code":null,"description":null}},"detai  │
+ │    ledLegalForm":{"code":null,"description":null},"startDate":null,"registrationDate":null,"endDate":"2017-11-15","pec":null,"taxCodeCeased":true,"taxCodeCeasedTimestamp":null,"vatGroup":null,"sdiCode"  │
+ │    :null,"sdiCodeTimestamp":null,"creationTimestamp":1660222745,"lastUpdateTimestamp":1660222745,"balanceSheets":{"last":null,"all":[]},"id":"62f4fd19dd7ded6537462c35","shareHolders":[]},{"taxCode":"GL  │
+ │    LFST52S30G148W","vatCode":"01446490557","companyName":"PIZZERIA GIALLETTI FAUSTO","address":{"registeredOffice":{"toponym":"VIA","street":"ANGELO COSTANZI","streetNumber":"68","streetName":"VIA       │
+ │    ANGELO COSTANZI                                                                                                                                                                                         │
+ │    68","town":"ORVIETO","hamlet":null,"province":"TR","zipCode":"05018","gps":{"coordinates":[12.1339199,42.7214757]},"region":{"code":"10","description":"UMBRIA"},"townCode":"G148"}},"activityStatus":  │
+ │    "CESSATA","reaCode":"97875","cciaa":"TR","atecoClassification":{"ateco":{"code":null,"description":null},"ateco2007":{"code":null,"description":null},"ateco2022":{"code":null,"description":null}},"d  │
+ │    etailedLegalForm":{"code":null,"description":null},"startDate":null,"registrationDate":null,"endDate":"2011-06-30","pec":null,"taxCodeCeased":true,"taxCodeCeasedTimestamp":null,"vatGroup":null,"sdiC  │
+ │    ode":null,"sdiCodeTimestamp":null,"creationTimestamp":1660149203,"lastUpdateTimestamp":1660149203,"balanceSheets":{"last":null,"all":[]},"id":"62f3ddd3981b3b72c5038986","shareHolders":[]},{"taxCode"  │
+ │    :"PRNSMN45M08M149V","vatCode":"00672860558","companyName":"PIZZERIA PASTICCERIA EUROPA DI PERINOVICH SIMEONE","address":{"registeredOffice":{"toponym":"CORSO","street":"DEL                            │
+ │    POPOLO","streetNumber":"56","streetName":"CORSO DEL POPOLO                                                                                                                                              │
+ │    56","town":"TERNI","hamlet":null,"province":"TR","zipCode":"05100","gps":{"coordinates":[12.64679,42.55996]},"region":{"code":"10","description":"UMBRIA"},"townCode":"L117"}},"activityStatus":"CESSA  │
+ │    TA","reaCode":"67860","cciaa":"TR","atecoClassification":{"ateco":{"code":null,"description":null},"ateco2007":{"code":null,"description":null},"ateco2022":{"code":null,"description":null}},"detaile  │
+ │    dLegalForm":{"code":null,"description":null},"startDate":null,"registrationDate":null,"endDate":"2013-03-31","pec":null,"taxCodeCeased":true,"taxCodeCeasedTimestamp":null,"vatGroup":null,"sdiCode":n  │
+ │    ull,"sdiCodeTimestamp":null,"creationTimestamp":1660149400,"lastUpdateTimestamp":1660149400,"balanceSheets":{"last":null,"all":[]},"id":"62f3de9848bc5121d22a2fcd","shareHolders":[]},{"taxCode":"BDES  │
+ │    NB61T05Z336O","vatCode":null,"companyName":"PIZZERIA S. MICHELE DI EBID SAID NABIH GHATAS","address":{"registeredOffice":{"toponym":"VIA","street":"SETTE                                               │
+ │    MARTIRI","streetNumber":"60","streetName":"VIA SETTE MARTIRI                                                                                                                                            │
+ │    60","town":"ORVIETO","hamlet":null,"province":"TR","zipCode":"05018","gps":{"coordinates":[12.1252389,42.723928]},"region":{"code":"10","description":"UMBRIA"},"townCode":"G148"}},"activityStatus":"  │
+ │    CESSATA","reaCode":"87453","cciaa":"TR","atecoClassification":{"ateco":{"code":null,"description":null},"ateco2007":{"code":null,"description":null},"ateco2022":{"code":null,"description":null}},"de  │
+ │    tailedLegalForm":{"code":null,"description":null},"startDate":null,"registrationDate":null,"endDate":"2005-07-04","pec":null,"taxCodeCeased":true,"taxCodeCeasedTimestamp":null,"vatGroup":null,"sdiCo  │
+ │    de":null,"sdiCodeTimestamp":null,"creationTimestamp":1660150087,"lastUpdateTimestamp":1660150087,"balanceSheets":{"last":null,"all":[]},"id":"62f3e1477baf3d25716f7371","shareHolders":[]},{"taxCode":  │
+ │    "00783280555","vatCode":"00783280555","companyName":"A.C.E. PIZZERIA OLD AMERICA DI QUARESIMINI SIMONETTA E TINI BRUNOZZI MARCO                                                                         │
+ │    S.N.C.","address":{"registeredOffice":{"toponym":"VIA","street":"BRACCINI","streetNumber":"4","streetName":"VIA BRACCINI                                                                                │
+ │    4","town":"TERNI","hamlet":null,"province":"TR","zipCode":"05100","gps":{},"region":{"code":"10","description":"UMBRIA"},"townCode":"L117"}},"activityStatus":"CESSATA","reaCode":"79136","cciaa":"TR"  │
+ │    ,"atecoClassification":{"ateco":{"code":null,"description":null},"ateco2007":{"code":null,"description":null},"ateco2022":{"code":null,"description":null}},"detailedLegalForm":{"code":null,"descript  │
+ │    ion":null},"startDate":null,"registrationDate":null,"endDate":"2012-01-12","pec":null,"taxCodeCeased":true,"taxCodeCeasedTimestamp":null,"vatGroup":null,"sdiCode":null,"sdiCodeTimestamp":null,"creat  │
+ │    ionTimestamp":1660150095,"lastUpdateTimestamp":1660150095,"balanceSheets":{"last":null,"all":[]},"id":"62f3e14f7baf3d25716f8ba0","shareHolders":[]},{"taxCode":"NGTSDR72B51C858V","vatCode":"031066205  │
+ │    49","companyName":"LA ROCCHETTA - BAR RISTORANTE PIZZERIA DI INGITTI SANDRA","address":{"registeredOffice":{"toponym":"VIA","street":"D. FAGETTI","streetNumber":"25","streetName":"VIA D. FAGETTI      │
+ │    25","town":"TERNI","hamlet":null,"province":"TR","zipCode":"05100","gps":{},"region":{"code":"10","description":"UMBRIA"},"townCode":"L117"}},"activityStatus":"CESSATA","reaCode":"96486","cciaa":"TR  │
+ │    ","atecoClassification":{"ateco":{"code":null,"description":null},"ateco2007":{"code":null,"description":null},"ateco2022":{"code":null,"description":null}},"detailedLegalForm":{"code":null,"descrip  │
+ │    tion":null},"startDate":null,"registrationDate":null,"endDate":"2010-09-09","pec":null,"taxCodeCeased":true,"taxCodeCeasedTimestamp":null,"vatGroup":null,"sdiCode":null,"sdiCodeTimestamp":null,"crea  │
+ │    tionTimestamp":1660150360,"lastUpdateTimestamp":1660150360,"balanceSheets":{"last":null,"all":[]},"id":"62f3e2589717ef4ad546b80f","shareHolders":[]},{"taxCode":"NTLMRN60L56L117O","vatCode":"01362790  │
+ │    550","companyName":"PIZZERIA BELVEDERE DI ANTOLINI MORENA","address":{"registeredOffice":{"toponym":"VIA","street":"TUDERTE","streetNumber":"52","streetName":"VIA TUDERTE                              │
+ │    52","town":"NARNI","hamlet":null,"province":"TR","zipCode":"05035","gps":{"coordinates":[12.51846,42.53255]},"region":{"code":"10","description":"UMBRIA"},"townCode":"F844"}},"activityStatus":"CESSA  │
+ │    TA","reaCode":"91354","cciaa":"TR","atecoClassification":{"ateco":{"code":null,"description":null},"ateco2007":{"code":null,"description":null},"ateco2022":{"code":null,"description":null}},"detaile  │
+ │    dLegalForm":{"code":null,"description":null},"startDate":null,"registrationDate":null,"endDate":"2007-10-29","pec":null,"taxCodeCeased":true,"taxCodeCeasedTimestamp":null,"vatGroup":null,"sdiCode":n  │
+ │    ull,"sdiCodeTimestamp":null,"creationTimestamp":1660148828,"lastUpdateTimestamp":1660148828,"balanceSheets":{"last":null,"all":[]},"id":"62f3dc5cdb10376f964fc954","shareHolders":[]},{"taxCode":"CCCS  │
+ │    RG62A31L117Q","vatCode":"01641620552","companyName":"PIZZERIA PANETTERIA SAN PAOLO DI CECCHETTI                                                                                                         │
+ │    SERGIO","address":{"registeredOffice":{"toponym":"VIA","street":"ROSSINI","streetNumber":"111/113","streetName":"VIA ROSSINI                                                                            │
+ │    111/113","town":"TERNI","hamlet":null,"province":"TR","zipCode":"05100","gps":{},"region":{"code":"10","description":"UMBRIA"},"townCode":"L117"}},"activityStatus":"CESSATA","reaCode":"113389","ccia  │
+ │    a":"TR","atecoClassification":{"ateco":{"code":null,"description":null},"ateco2007":{"code":null,"description":null},"ateco2022":{"code":null,"description":null}},"detailedLegalForm":{"code":null,"d  │
+ │    escription":null},"startDate":null,"registrationDate":null,"endDate":"2020-06-17","pec":null,"taxCodeCeased":true,"taxCodeCeasedTimestamp":null,"vatGroup":null,"sdiCode":null,"sdiCodeTimestamp":null  │
+ │    ,"creationTimestamp":1660149816,"lastUpdateTimestamp":1660149816,"balanceSheets":{"last":null,"all":[]},"id":"62f3e0381559603b4414f0b4","shareHolders":[]},{"taxCode":"BBTFNC68L29L117R","vatCode":"00  │
+ │    608150553","companyName":"PIZZERIA IL QUADRIFOGLIO DI ABBATI FRANCESCO","address":{"registeredOffice":{"toponym":"VIA","street":"CASE SPARSE","streetNumber":"12/B","streetName":"VIA CASE SPARSE       │
+ │    12/B","town":"TERNI","hamlet":null,"province":"TR","zipCode":"05100","gps":{"coordinates":[12.2887903,42.5138378]},"region":{"code":"10","description":"UMBRIA"},"townCode":"L117"}},"activityStatus":  │
+ │    "CESSATA","reaCode":"63743","cciaa":"TR","atecoClassification":{"ateco":{"code":null,"description":null},"ateco2007":{"code":null,"description":null},"ateco2022":{"code":null,"description":null}},"d  │
+ │    etailedLegalForm":{"code":null,"description":null},"startDate":null,"registrationDate":null,"endDate":"2011-09-30","pec":null,"taxCodeCeased":true,"taxCodeCeasedTimestamp":null,"vatGroup":null,"sdiC  │
+ │    ode":null,"sdiCodeTimestamp":null,"creationTimestamp":1660148698,"lastUpdateTimestamp":1660148698,"balanceSheets":{"last":null,"all":[]},"id":"62f3dbdaa7df7848ae26b781","shareHolders":[]},{"taxCode"  │
+ │    :"BTTPTP90E09Z222J","vatCode":"01438090555","companyName":"PIZZERIA BELLA ITALIA DI BUTTER PRITPAL SINGH","address":{"registeredOffice":{"toponym":"VIA","street":"G.                                   │
+ │    GALILEI","streetNumber":"7/9","streetName":"VIA G. GALILEI                                                                                                                                              │
+ │    7/9","town":"ACQUASPARTA","hamlet":null,"province":"TR","zipCode":null,"gps":{},"region":{"code":"10","description":"UMBRIA"},"townCode":"A045"}},"activityStatus":"CESSATA","reaCode":"101807","cciaa  │
+ │    ":"TR","atecoClassification":{"ateco":{"code":null,"description":null},"ateco2007":{"code":null,"description":null},"ateco2022":{"code":null,"description":null}},"detailedLegalForm":{"code":null,"de  │
+ │    scription":null},"startDate":null,"registrationDate":null,"endDate":"2014-06-12","pec":null,"taxCodeCeased":true,"taxCodeCeasedTimestamp":null,"vatGroup":{"vatGroupParticipation":false,"isVatGroupLe  │
+ │    ader":false,"registryOk":true},"sdiCode":null,"sdiCodeTimestamp":1660148597,"creationTimestamp":1660148597,"lastUpdateTimestamp":1660148597,"balanceSheets":{"last":null,"all":[]},"id":"62f3db75a7df7  │
+ │    848ae257afc","shareHolders":[]},{"taxCode":"PTRRME49B14E160E","vatCode":"01371690551","companyName":"PIZZERIA ANTICO BORGO DI PETRUCCI                                                                  │
+ │    REMO","address":{"registeredOffice":{"toponym":"VIA","street":"DEI GARIBALDINI","streetNumber":"35","streetName":"VIA DEI GARIBALDINI                                                                   │
+ │    35","town":"TERNI","hamlet":null,"province":"TR","zipCode":"05100","gps":{},"region":{"code":"10","description":"UMBRIA"},"townCode":"L117"}},"activityStatus":"CESSATA","reaCode":"92862","cciaa":"TR  │
+ │    ","atecoClassification":{"ateco":{"code":null,"description":null},"ateco2007":{"code":null,"description":null},"ateco2022":{"code":null,"description":null}},"detailedLegalForm":{"code":null,"descrip  │
+ │    tion":null},"startDate":null,"registrationDate":null,"endDate":"2013-01-11","pec":null,"taxCodeCeased":true,"taxCodeCeasedTimestamp":null,"vatGroup":null,"sdiCode":null,"sdiCodeTimestamp":null,"crea  │
+ │    tionTimestamp":1660147326,"lastUpdateTimestamp":1660147326,"balanceSheets":{"last":null,"all":[]},"id":"62f3d67e5c3145613133d096","shareHolders":[]},{"taxCode":"00275400554","vatCode":null,"companyN  │
+ │    ame":"PIZZERIA 'O VESUVIO S.N.C. DI MARINO VITTORIO & C.","address":{"registeredOffice":{"toponym":"VIA","street":"PIAVE","streetNumber":"43","streetName":"VIA PIAVE                                   │
+ │    43","town":"TERNI","hamlet":null,"province":"TR","zipCode":"05100","gps":{"coordinates":[12.64927,42.55714]},"region":{"code":"10","description":"UMBRIA"},"townCode":"L117"}},"activityStatus":"CESSA  │
+ │    TA","reaCode":"56238","cciaa":"TR","atecoClassification":{"ateco":{"code":null,"description":null},"ateco2007":{"code":null,"description":null},"ateco2022":{"code":null,"description":null}},"detaile  │
+ │    dLegalForm":{"code":null,"description":null},"startDate":null,"registrationDate":null,"endDate":"1999-01-27","pec":null,"taxCodeCeased":true,"taxCodeCeasedTimestamp":null,"vatGroup":null,"sdiCode":n  │
+ │    ull,"sdiCodeTimestamp":null,"creationTimestamp":1660147392,"lastUpdateTimestamp":1660147392,"balanceSheets":{"last":null,"all":[]},"id":"62f3d6c05c314561313493e9","shareHolders":[]},{"taxCode":"PDDD  │
+ │    RN50T64F844M","vatCode":null,"companyName":"PIZZERIA ANACHI DI PODDI ADRIANA","address":{"registeredOffice":{"toponym":"VIA","street":"LIUTPRANDO","streetNumber":"28/D","streetName":"VIA LIUTPRANDO   │
+ │    28/D","town":"TERNI","hamlet":null,"province":"TR","zipCode":"05100","gps":{"coordinates":[12.6400452,42.5502245]},"region":{"code":"10","description":"UMBRIA"},"townCode":"L117"}},"activityStatus":  │
+ │    "CESSATA","reaCode":"66167","cciaa":"TR","atecoClassification":{"ateco":{"code":null,"description":null},"ateco2007":{"code":null,"description":null},"ateco2022":{"code":null,"description":null}},"d  │
+ │    etailedLegalForm":{"code":null,"description":null},"startDate":null,"registrationDate":null,"endDate":"1999-06-30","pec":null,"taxCodeCeased":true,"taxCodeCeasedTimestamp":null,"vatGroup":null,"sdiC  │
+ │    ode":null,"sdiCodeTimestamp":null,"creationTimestamp":1660147392,"lastUpdateTimestamp":1660147392,"balanceSheets":{"last":null,"all":[]},"id":"62f3d6c05c314561313493ee","shareHolders":[]},{"taxCode"  │
+ │    :"LVILRI83H58L117H","vatCode":"01358100558","companyName":"PIZZERIA IL PIZZONE DI LIVI ILARIA","address":{"registeredOffice":{"toponym":"VIALE","street":"BENEDETTO                                     │
+ │    BRIN","streetNumber":"65","streetName":"VIALE BENEDETTO BRIN                                                                                                                                            │
+ │    65","town":"TERNI","hamlet":null,"province":"TR","zipCode":null,"gps":null,"region":{"code":"10","description":"UMBRIA"},"townCode":"L117"}},"activityStatus":"CESSATA","reaCode":"90990","cciaa":"TR"  │
+ │    ,"atecoClassification":{"ateco":{"code":null,"description":null},"ateco2007":{"code":null,"description":null},"ateco2022":{"code":null,"description":null}},"detailedLegalForm":{"code":null,"descript  │
+ │    ion":null},"startDate":null,"registrationDate":null,"endDate":"2020-06-01","pec":null,"taxCodeCeased":true,"taxCodeCeasedTimestamp":null,"vatGroup":{"vatGroupParticipation":false,"isVatGroupLeader":  │
+ │    false,"registryOk":true},"sdiCode":null,"sdiCodeTimestamp":1641772138,"creationTimestamp":1641772138,"lastUpdateTimestamp":1660215783,"balanceSheets":{"last":null,"all":[]},"id":"61db746a091b24732a5  │
+ │    d276b","shareHolders":[]},{"taxCode":"HLMLLY55M47Z114V","vatCode":"00591040555","companyName":"PIZZERIA LA RUSTICHELLA DI HOLMES LESLEY                                                                 │
+ │    ANN","address":{"registeredOffice":{"toponym":"PIAZZA","street":"GARIBALDI","streetNumber":"5/6","streetName":"PIAZZA GARIBALDI                                                                         │
+ │    5/6","town":"NARNI","hamlet":null,"province":"TR","zipCode":"05035","gps":null,"region":{"code":"10","description":"UMBRIA"},"townCode":"F844"}},"activityStatus":"CESSATA","reaCode":"103236","cciaa"  │
+ │    :"TR","atecoClassification":{"ateco":{"code":null,"description":null},"ateco2007":{"code":null,"description":null},"ateco2022":{"code":null,"description":null}},"detailedLegalForm":{"code":null,"des  │
+ │    cription":null},"startDate":null,"registrationDate":null,"endDate":"2014-12-22","pec":null,"taxCodeCeased":true,"taxCodeCeasedTimestamp":null,"vatGroup":null,"sdiCode":null,"sdiCodeTimestamp":164177  │
+ │    2220,"creationTimestamp":1641772220,"lastUpdateTimestamp":1660300379,"balanceSheets":{"last":null,"all":[]},"id":"61db74bc4aec1164942298e3","shareHolders":[]},{"taxCode":"01295000556","vatCode":"012  │
+ │    95000556","companyName":"PIZZERIA ZIO ZEB DI MUTI GABRIELE E C. S.A.S.","address":{"registeredOffice":{"toponym":"VIA","street":"DELLA LINCE","streetNumber":"4","streetName":"VIA DELLA LINCE          │
+ │    4","town":"TERNI","hamlet":null,"province":"TR","zipCode":"05100","gps":{"coordinates":[12.59526,42.59759]},"region":{"code":"10","description":"UMBRIA"},"townCode":"L117"}},"activityStatus":"CESSAT  │
+ │    A","reaCode":"86469","cciaa":"TR","atecoClassification":{"ateco":{"code":"56102","description":"Ristorazione senza somministrazione con preparazione di cibi da                                         │
+ │    asporto"},"ateco2007":{"code":"56102","description":"Ristorazione senza somministrazione con preparazione di cibi da asporto"},"ateco2022":{"code":"56102","description":"Ristorazione senza            │
+ │    somministrazione con preparazione di cibi da asporto"}},"detailedLegalForm":{"code":"AS","description":"SOCIETA' IN ACCOMANDITA                                                                         │
+ │    SEMPLICE"},"startDate":null,"registrationDate":"2004-03-11","endDate":null,"pec":null,"taxCodeCeased":true,"taxCodeCeasedTimestamp":null,"vatGroup":{"vatGroupParticipation":false,"isVatGroupLeader":  │
+ │    false,"registryOk":true},"sdiCode":null,"sdiCodeTimestamp":1624357952,"creationTimestamp":1624357952,"lastUpdateTimestamp":1689993850,"balanceSheets":{"last":null,"all":[{"year":2023,"employees":1,"  │
+ │    balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2022,"employees":1,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0},{"year":2021,"employees"  │
+ │    :1,"balanceSheetDate":null,"turnover":null,"netWorth":null,"shareCapital":0}]},"id":"60d1bc40f9935c14ea37ada5","shareHolders":[]}]                                                                      │
+ ╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+ ╭────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+ │ ✓  WriteFile Writing to pizzerieTerni.csv                                                                                                                                                                  │
+ │                                                                                                                                                                                                            │
+ │     1 "indirizzo","pec"                                                                                                                                                                                    │
+ │     2 "VIA DEI SETTE MARTIRI 60, 05018 ORVIETO (TR)",""                                                                                                                                                    │
+ │     3 "STRADA SAN FAUSTINO 10, 05035 NARNI (TR)","pizzerialaregina@arubapec.it"                                                                                                                            │
+ │     4 "CORSO DEL POPOLO 56, 05100 TERNI (TR)","pizzeuropa@postecert.it"                                                                                                                                    │
+ │     5 "VIA CESARE BATTISTI 90, 05100 TERNI (TR)","pizzeriadellostudente@pec.it"                                                                                                                            │
+ │     6 "VIA ALDO BARTOCCI 1/D, 05100 TERNI (TR)","enucacecilia@pec.it"                                                                                                                                      │
+ │     7 "VOCABOLO I PRATI 176, 05039 STRONCONE (TR)","lauroratratt@legalmail.it"                                                                                                                             │
+ │     8 "VIA MONTANARA 10/12, 05100 TERNI (TR)","pizzeriadamartino2@pec.it"                                                                                                                                  │
+ │     9 "PIAZZA DEL TEATRO 3/4, 05020 AVIGLIANO UMBRO (TR)","stefaniapellegrini24@pec.it"                                                                                                                    │
+ │    10 "VIA LUCA SIGNORELLI 9, 05018 ORVIETO (TR)",""                                                                                                                                                       │
+ │    11 "VIA FILIPPO TURATI 81, 05100 TERNI (TR)","cstngl94t54a024l@impresa.italia.it"                                                                                                                       │
+ │    12 "VIA ARNO 44, 05018 ORVIETO (TR)","cacciarinomariapia@pec.it"                                                                                                                                        │
+ │    13 "CORSO CAMILLO BENSO CONTE DI CAVOUR 213, 05018 ORVIETO (TR)","pizzeriaviktoria2019@pec.it"                                                                                                          │
+ │    14 "VIALE GIOACCHINO ROSSINI 87/B, 05100 TERNI (TR)","pizzeriaverygood@pec.it"                                                                                                                          │
+ │    15 "VIA DELLA STAZIONE 61/63, 05035 NARNI (TR)","barstazione.italiani@pec.it"                                                                                                                           │
+ │    16 "VIA ECLO PIERMATTI 1, 05100 TERNI (TR)","legrandimacine@pec.it"                                                                                                                                     │
+ │    17 "CORSO CAMILLO BENSO CONTE DI CAVOUR 2, 05100 TERNI (TR)","pizzeriailtempiosrls@pec.it"                                                                                                              │
+ │    18 "STRADA DI SAN CARLO 141, 05100 TERNI (TR)","casanostra.tr@pec.it"                                                                                                                                   │
+ │    19 "VIA CRISTOFORO COLOMBO 2, 05100 TERNI (TR)",""                                                                                                                                                      │
+ │    20 "VIA ROMA 10, 05014 CASTEL VISCARDO (TR)","sntdnl64c54g148k@impresa.italia.it"                                                                                                                       │
+ │    21 "VIA DEI GELSI 1, 05018 ORVIETO (TR)","pizzeria-delponte@pec.it"                                                                                                                                     │
+ │    22 "VIA CRISTOFORO COLOMBO 2, 05100 TERNI (TR)",""                                                                                                                                                      │
+ │    23 "VIA PONTE D'ORO 13/A, 05100 TERNI (TR)",""                                                                                                                                                          │
+ │    24 "VIALE CESARE BATTISTI 54, 05100 TERNI (TR)","saqellari@pec.it"                                                                                                                                      │
+ │    25 "VIA CARNANO 40, 05100 TERNI (TR)","juniorbar@pec.it"                                                                                                                                                │
+ │    26 "VIA DANTE ALIGHIERI 3, 05013 CASTEL GIORGIO (TR)","pizzeriafantasysnc@pec.it"                                                                                                                       │
+ │    27 "VIA CESARE BATTISTI 1-3, 05020 MONTECCHIO (TR)",""                                                                                                                                                  │
+ │    28 "STRADA DI COLLESCIPOLI 132, 05100 TERNI (TR)","ristorantepizzerialacollinetta@pec.it"                                                                                                               │
+ │    29 "PIAZZA DALMAZIA 27, 05100 TERNI (TR)","marcodandrea@pec.it"                                                                                                                                         │
+ │    30 "STRADA FONTANELLE DI BARDANO 31, 05018 ORVIETO (TR)","trentavizi@pec.it"                                                                                                                            │
+ │    31 "STRADA STATALE VALNERINA 88, 05030 MONTEFRANCO (TR)","michael.pizzeria@pec.it"                                                                                                                      │
+ │    32 "PIAZZA DEL MUNICIPIO 11, 05013 CASTEL GIORGIO (TR)",""                                                                                                                                              │
+ │    33 "VIA GABELLETTA 5/H, 05100 TERNI (TR)","pazzopachinocentro@pec.it"                                                                                                                                   │
+ ╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+✦ Ho creato il file pizzerieTerni.csv con l'indirizzo e la PEC delle pizzerie trovate nella provincia di Terni.
+
+╭────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  > nel file includi: il nome, la partita iva, l'indirizzo diviso in: dug (es via, viale) indirizzo, civico, cap, città, e provincia, la pec e il codice ateco  │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+✦ Ok, sovrascrivo il file pizzerieTerni.csv con le nuove informazioni.
+ ╭────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+ │ ✓  WriteFile Writing to pizzerieTerni.csv                                                                                                                                                                  │
+ │                                                                                                                                                                                                            │
+ │     1 - "indirizzo","pec"                                                                                                                                                                                  │
+ │     2 - "VIA DEI SETTE MARTIRI 60, 05018 ORVIETO (TR)",""                                                                                                                                                  │
+ │     3 - "STRADA SAN FAUSTINO 10, 05035 NARNI (TR)","pizzerialaregina@arubapec.it"                                                                                                                          │
+ │     4 - "CORSO DEL POPOLO 56, 05100 TERNI (TR)","pizzeuropa@postecert.it"                                                                                                                                  │
+ │     5 - "VIA CESARE BATTISTI 90, 05100 TERNI (TR)","pizzeriadellostudente@pec.it"                                                                                                                          │
+ │     6 - "VIA ALDO BARTOCCI 1/D, 05100 TERNI (TR)","enucacecilia@pec.it"                                                                                                                                    │
+ │     7 - "VOCABOLO I PRATI 176, 05039 STRONCONE (TR)","lauroratratt@legalmail.it"                                                                                                                           │
+ │     8 - "VIA MONTANARA 10/12, 05100 TERNI (TR)","pizzeriadamartino2@pec.it"                                                                                                                                │
+ │     9 - "PIAZZA DEL TEATRO 3/4, 05020 AVIGLIANO UMBRO (TR)","stefaniapellegrini24@pec.it"                                                                                                                  │
+ │    10 - "VIA LUCA SIGNORELLI 9, 05018 ORVIETO (TR)",""                                                                                                                                                     │
+ │    11 - "VIA FILIPPO TURATI 81, 05100 TERNI (TR)","cstngl94t54a024l@impresa.italia.it"                                                                                                                     │
+ │    12 - "VIA ARNO 44, 05018 ORVIETO (TR)","cacciarinomariapia@pec.it"                                                                                                                                      │
+ │    13 - "CORSO CAMILLO BENSO CONTE DI CAVOUR 213, 05018 ORVIETO (TR)","pizzeriaviktoria2019@pec.it"                                                                                                        │
+ │    14 - "VIALE GIOACCHINO ROSSINI 87/B, 05100 TERNI (TR)","pizzeriaverygood@pec.it"                                                                                                                        │
+ │    15 - "VIA DELLA STAZIONE 61/63, 05035 NARNI (TR)","barstazione.italiani@pec.it"                                                                                                                         │
+ │    16 - "VIA ECLO PIERMATTI 1, 05100 TERNI (TR)","legrandimacine@pec.it"                                                                                                                                   │
+ │    17 - "CORSO CAMILLO BENSO CONTE DI CAVOUR 2, 05100 TERNI (TR)","pizzeriailtempiosrls@pec.it"                                                                                                            │
+ │    18 - "STRADA DI SAN CARLO 141, 05100 TERNI (TR)","casanostra.tr@pec.it"                                                                                                                                 │
+ │    19 - "VIA CRISTOFORO COLOMBO 2, 05100 TERNI (TR)",""                                                                                                                                                    │
+ │    20 - "VIA ROMA 10, 05014 CASTEL VISCARDO (TR)","sntdnl64c54g148k@impresa.italia.it"                                                                                                                     │
+ │    21 - "VIA DEI GELSI 1, 05018 ORVIETO (TR)","pizzeria-delponte@pec.it"                                                                                                                                   │
+ │    22 - "VIA CRISTOFORO COLOMBO 2, 05100 TERNI (TR)",""                                                                                                                                                    │
+ │    23 - "VIA PONTE D'ORO 13/A, 05100 TERNI (TR)",""                                                                                                                                                        │
+ │    24 - "VIALE CESARE BATTISTI 54, 05100 TERNI (TR)","saqellari@pec.it"                                                                                                                                    │
+ │    25 - "VIA CARNANO 40, 05100 TERNI (TR)","juniorbar@pec.it"                                                                                                                                              │
+ │    26 - "VIA DANTE ALIGHIERI 3, 05013 CASTEL GIORGIO (TR)","pizzeriafantasysnc@pec.it"                                                                                                                     │
+ │    27 - "VIA CESARE BATTISTI 1-3, 05020 MONTECCHIO (TR)",""                                                                                                                                                │
+ │    28 - "STRADA DI COLLESCIPOLI 132, 05100 TERNI (TR)","ristorantepizzerialacollinetta@pec.it"                                                                                                             │
+ │    29 - "PIAZZA DALMAZIA 27, 05100 TERNI (TR)","marcodandrea@pec.it"                                                                                                                                       │
+ │    30 - "STRADA FONTANELLE DI BARDANO 31, 05018 ORVIETO (TR)","trentavizi@pec.it"                                                                                                                          │
+ │    31 - "STRADA STATALE VALNERINA 88, 05030 MONTEFRANCO (TR)","michael.pizzeria@pec.it"                                                                                                                    │
+ │    32 - "PIAZZA DEL MUNICIPIO 11, 05013 CASTEL GIORGIO (TR)",""                                                                                                                                            │
+ │    33 - "VIA GABELLETTA 5/H, 05100 TERNI (TR)","pazzopachinocentro@pec.it"                                                                                                                                 │
+ │     1 + "nome","partita_iva","dug","indirizzo","civico","cap","citta","provincia","pec","codice_ateco"                                                                                                     │
+ │     2 + "PIZZERIA SAN MICHELE DI EBID HANI NABIH GHATTAS","01824490567","VIA","DEI SETTE MARTIRI","60","05018","ORVIETO","TR","","561111"                                                                  │
+ │     3 + "PIZZERIA LA REGINA DI LORI GIANMARCO","01536550559","STRADA","SAN FAUSTINO","10","05035","NARNI","TR","pizzerialaregina@arubapec.it","561112"                                                     │
+ │     4 + "PIZZERIA PASTICCERIA EUROPA S.R.L.","01505450559","CORSO","DEL POPOLO","56","05100","TERNI","TR","pizzeuropa@postecert.it","561112"                                                               │
+ │     5 + "PIZZERIA DELLO STUDENTE S.N.C. DI DI LEONARDO TOMMASO & C.","01447360551","VIA","CESARE BATTISTI","90","05100","TERNI","TR","pizzeriadellostudente@pec.it","561112"                               │
+ │     6 + "PIZZERIA PAZZOPACHINO DI ENUCA CECILIA","01525070551","VIA","ALDO BARTOCCI","1/D","05100","TERNI","TR","enucacecilia@pec.it","561112"                                                             │
+ │     7 + "L'AURORA BAR PIZZERIA TRATTORIA DI SARA DI PIETRO","01638060556","VOCABOLO","I PRATI","176","05039","STRONCONE","TR","lauroratratt@legalmail.it","561111"                                         │
+ │     8 + "PIZZERIA DA MARTINO 2 DI MARTINO LEONORA","01297310557","VIA","MONTANARA","10/12","05100","TERNI","TR","pizzeriadamartino2@pec.it","561111"                                                       │
+ │     9 + "PIZZERIA DEL TEATRO DI PELLEGRINI STEFANIA","01562380558","PIAZZA","DEL TEATRO","3/4","05020","AVIGLIANO UMBRO","TR","stefaniapellegrini24@pec.it","561112"                                       │
+ │    10 + "PIZZERIA SAN GIUSEPPE DI LEVANDOVYCH IRYNA","01644580555","VIA","LUCA SIGNORELLI","9","05018","ORVIETO","TR","","561112"                                                                          │
+ │    11 + "RISTORANTE PIZZERIA 9 3/4 DI CASTIELLO ANGELA","01643470550","VIA","FILIPPO TURATI","81","05100","TERNI","TR","cstngl94t54a024l@impresa.italia.it","561111"                                       │
+ │    12 + "PIZZERIA LE ROSE DI CACCIARINO MARIA PIA","01561800556","VIA","ARNO","44","05018","ORVIETO","TR","cacciarinomariapia@pec.it","561112"                                                             │
+ │    13 + "PIZZERIA VERY GOOD S.R.L.","01239890559","VIALE","GIOACCHINO ROSSINI","87/B","05100","TERNI","TR","pizzeriaverygood@pec.it","561111"                                                              │
+ │    14 + "BAR PIZZERIA STAZIONE S.N.C. - DI ITALIANI ROBERTO, RENATO, STEFANO & C.","00665680559","VIA","DELLA STAZIONE","61/63","05035","NARNI","TR","barstazione.italiani@pec.it","563"                   │
+ │    15 + "PIZZERIA VIKTORIA DI PUSTYNNYK ZHANNA","01633760556","CORSO","CAMILLO BENSO CONTE DI CAVOUR","213","05018","ORVIETO","TR","pizzeriaviktoria2019@pec.it","561112"                                  │
+ │    16 + "RISTORANTE PIZZERIA LE MACINE S.R.L.","01318790555","VIA","ECLO PIERMATTI","1","05100","TERNI","TR","legrandimacine@pec.it","561111"                                                              │
+ │    17 + "PIZZERIA IL TEMPIO SOCIETA' A RESPONSABILITA' LIMITATA SEMPLIFICATA","01630640553","VIA","CRISTOFORO COLOMBO","2","05100","TERNI","TR","pizzeriailtempiosrls@pec.it","561111"                     │
+ │    18 + "TRATTORIA PIZZERIA CASA NOSTRA S.R.L.","01524850557","STRADA","DI SAN CARLO","141","05100","TERNI","TR","casanostra.tr@pec.it","561111"                                                           │
+ │    19 + "PIZZERIA IL NUOVO TEMPIO DI GOMOTIRCEANU RENEL S.A.S.","00669460552","VIA","CRISTOFORO COLOMBO","2","05100","TERNI","TR","","561111"                                                              │
+ │    20 + "PIZZERIA DEL PONTE S.N.C. DI BRUNELLI MARCELLO E DOMINICI DONATELLA","00543410559","VIA","DEI GELSI","1","05018","ORVIETO","TR","pizzeria-delponte@pec.it","561112"                               │
+ │    21 + "PIZZERIA IL TEMPIO DI PERRI PASQUALINO","01472080553","VIA","CRISTOFORO COLOMBO","2","05100","TERNI","TR","","561111"                                                                             │
+ │    22 + "PIZZERIA DA MARIO DI VIOLA FEDERICA","01468740558","VIA","PONTE D'ORO","13/A","05100","TERNI","TR","","561112"                                                                                    │
+ │    23 + "PIZZERIA BATTISTI DI SAQELLARI GENTI","01364570554","VIALE","CESARE BATTISTI","54","05100","TERNI","TR","saqellari@pec.it","561112"                                                               │
+ │    24 + "JUNIOR BAR PIZZERIA SOCIETA' COOPERATIVA IN LIQUIDAZIONE","01667030553","VIA","CARNANO","40","05100","TERNI","TR","juniorbar@pec.it","561112"                                                     │
+ │    25 + "PIZZERIA FANTASY SOCIETA' IN NOME COLLETTIVO DI CICA LORETTA E BA TALONI MARCO","01612160554","VIA","DANTE ALIGHIERI","3","05013","CASTEL GIORGIO","TR","pizzeriafantasysnc@pec.it","561111"      │
+ │    26 + "BAR PIZZERIA DAMI","01641980550","VIA","CESARE BATTISTI","1-3","05020","MONTECCHIO","TR","","563"                                                                                                 │
+ │    27 + "RISTORANTE PIZZERIA LA COLLINETTA DI CATANA LUIGI","01423010550","STRADA","DI COLLESCIPOLI","132","05100","TERNI","TR","ristorantepizzerialacollinetta@pec.it","561111"                           │
+ │    28 + "PIZZERIA DALMAZIA DI D'ANDREA MARCO","00540320553","PIAZZA","DALMAZIA","27","05100","TERNI","TR","marcodandrea@pec.it","561112"                                                                   │
+ │    29 + "TAVOLA CALDA - PIZZERIA DUE PINI DI TRENTAVIZI ROBERTO","00609080551","STRADA","FONTANELLE DI BARDANO","31","05018","ORVIETO","TR","trentavizi@pec.it","561112"                                   │
+ │    30 + "PIZZERIA PIT STOP S.A.S. DI MENICHINI MICHAEL","01546110550","STRADA","STATALE VALNERINA","88","05030","MONTEFRANCO","TR","michael.pizzeria@pec.it","561111"                                      │
+ │    31 + "PIZZERIA DELL'ALFINA DI RICCIO TERESA","02374280507","PIAZZA","DEL MUNICIPIO","11","05013","CASTEL GIORGIO","TR","","561111"                                                                      │
+ │    32 + "PIZZERIA PAZZOPACHINO CENTRO DI BIDARRA MARTINEZ ALVARO DANIEL","01476670557","VIA","GABELLETTA","5/H","05100","TERNI","TR","pazzopachinocentro@pec.it","561112"                                  │
+ ╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+✦ Fatto. Ho aggiornato il file pizzerieTerni.csv includendo: nome, partita iva, dug, indirizzo, civico, cap, città, provincia, pec e codice ateco.

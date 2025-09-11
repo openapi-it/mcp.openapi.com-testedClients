@@ -1,5 +1,10 @@
 # Gemini CLI
 
+## 📋 Prerequisites
+
+- **Gemini CLI**
+- **Token OpenAPI** (from [openapi.com](https://openapi.com))
+
 ## Installation via npm
 
 Gemini CLI is available as an npm package. Follow these steps to install it on different operating systems:
@@ -278,7 +283,7 @@ Authorization is requested to execute the specific MCP tool call to mcp.openapi.
 ✦ With the province set to "TR", there are 27 corporations with a turnover above 10 million.
 
 ╭───────────────────────────────────────────────────────╮
-│  > Generate an HTML report for OpenAPI S.p.A.  │
+│  > Generate an HTML report for Openapi S.p.A.  │
 ╰───────────────────────────────────────────────────────╯
 
  ╭────────────────────────────────────────────────────────────────────────────────────────────╮
@@ -590,3 +595,9 @@ Authorization is requested to execute the specific MCP tool call to mcp.openapi.
 ✦ I have generated the report in HTML format, you can find it here:
   ~/Openapi/McpGeminiCli/openapi_report.html
 ```
+
+## Other Examples
+
+  - [Data Extraction Example](dataEstractionExample.txt): An example of a conversation and data extraction from MCP.
+  - [Pizzerias in Terni](pizzerieTerni.csv): A CSV file containing a list of pizzerias in the province of Terni generated during the conversation.
+  - [Pizzeria Map](mappa_pizzerie.html): An interactive map of the pizzerias in Terni generated during the conversation.

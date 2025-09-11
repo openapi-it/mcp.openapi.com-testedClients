@@ -75,6 +75,6 @@ In this example, the `dryRun` property of the company.openapi.com API was automa
 
 ![Verify MCP Connection](screenshots/companyExampleOkExport_IT.png)
 
-## "Generate an HTML report for OpenAPI S.p.A."
+## "Generate an HTML report for Openapi S.p.A."
 
 ![Verify MCP Connection](screenshots/companyExampleOkReport_IT.png)
