@@ -1,22 +1,21 @@
 # GitHub Copilot VS Code
-In questa documentazione sono raccolti degli esempi e dei rapidi consigli per configurare il server mcp.openapi.com
-all'interno di GitHub Copilot VS Code.
+This documentation contains examples and quick tips for configuring the mcp.openapi.com server
+within GitHub Copilot VS Code.
 
-## 📋 Prerequisiti
+## 📋 Prerequisites
 
-- **Visual Studio Code** (versione recente)
-- **GitHub Copilot Chat** (estensione installata e attiva)
-- **Token OpenAPI** (ottenibile da [openapi.com](https://openapi.com))
+- **Visual Studio Code** (recent version)
+- **GitHub Copilot Chat** (extension installed and active)
+- **OpenAPI Token** (obtainable from [openapi.com](https://openapi.com))
 
 ## 🚀 Quick Start
 
-Per un rapido test possibile eseguire vscode da questa directory (copilot-vscode):
+For a quick test, you can run VS Code from this directory (copilot-vscode):
 
 **Windows:**
 ```cmd
 > code .
 ```
-
 
 **macOS/Linux:**
 ```bash
@@ -24,11 +23,11 @@ $ code .
 ```
 ---
 
-## ⚙️ Installazione "permanente"
+## ⚙️ "Permanent" Installation
 
-### 1. Localizza la Directory di Configurazione
+### 1. Locate the Configuration Directory
 
-Naviga alla cartella di configurazione di Copilot Chat:
+Navigate to the Copilot Chat configuration folder:
 
 **Windows:**
 ```cmd
@@ -40,11 +39,11 @@ Naviga alla cartella di configurazione di Copilot Chat:
 ~/.vscode/copilot-chat
 ```
 
-> 💡 Se la cartella `copilot-chat` non esiste, creala manualmente
+> 💡 If the `copilot-chat` folder doesn't exist, create it manually
 
-### 2. Crea il File di Configurazione
+### 2. Create the Configuration File
 
-Crea il file `mcp.json` nella cartella identificata:
+Create the `mcp.json` file in the identified folder:
 
 ````json
 {
@@ -66,18 +65,18 @@ Crea il file `mcp.json` nella cartella identificata:
 }
 ````
 
-### 3. Riavvia VS Code
+### 3. Restart VS Code
 
-**Questo passaggio è fondamentale**. Chiudi completamente Visual Studio Code e riaprilo. In questo modo l'estensione di Copilot Chat caricherà il tuo nuovo file di configurazione.
+**This step is essential**. Completely close Visual Studio Code and reopen it. This way, the Copilot Chat extension will load your new configuration file.
 
 ---
 
-## Come Utilizzarlo
+## How to Use It
 
-Una volta riavviato VS Code, la configurazione sarà attiva.
+Once VS Code is restarted, the configuration will be active.
 
-1.  Apri la chat di GitHub Copilot (solitamente con `Ctrl+Alt+I` o `Cmd+Option+I`).
-2.  Nella chat, digita `@` e dovresti vedere il nuovo servizio `@openapi.com` tra le opzioni disponibili.
-3.  Selezionalo e scrivi la tua richiesta. Ad esempio: `@openapi.com get my user details`.
-4.  Alla prima richiesta, VS Code mostrerà un campo di input in alto, chiedendoti di inserire il token (`Insert a valid Openapi.com Token`). Grazie a `"password": true`, l'input sarà mascherato mentre digiti.
-5.  Inserisci il token e premi Invio. Copilot userà questo token per autenticare la sua richiesta al servizio `https://mcp.openapi.com/` e ti mostrerà il risultato. ✨
+1.  Open the GitHub Copilot chat (usually with `Ctrl+Alt+I` or `Cmd+Option+I`).
+2.  In the chat, type `@` and you should see the new `@openapi.com` service among the available options.
+3.  Select it and write your request. For example: `@openapi.com get my user details`.
+4.  On the first request, VS Code will show an input field at the top, asking you to enter the token (`Insert a valid Openapi.com Token`). Thanks to `"password": true`, the input will be masked while you type.
+5.  Enter the token and press Enter. Copilot will use this token to authenticate its request to the `https://mcp.openapi.com/` service and show you the result. ✨
