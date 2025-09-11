@@ -1,3 +1,11 @@
+
+<style>
+img, img[src$='.png'], img[src$='.jpg'], img[src$='.jpeg'], img[src$='.gif'] {
+	background: #FFF !important;
+	padding: 5px;
+	display: inline-block;
+}
+</style>
 # MCP Openapi Tested Clients
 
 This repository contains documentation on how to configure and test various MCP clients with the `mcp.openapi.com` server.
